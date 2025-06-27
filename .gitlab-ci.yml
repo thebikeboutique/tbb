@@ -1,0 +1,15 @@
+stages:
+  - sync
+
+sync_to_github:
+  stage: sync
+  image: alpine:latest
+  script:
+    - apk add git
+    - git config --global user.email "thebikeboutique@gmail.com"
+    - git config --global user.name "The Bike Boutique"
+    - git clone --mirror https://gitlab.com/thebikeboutique/thebikeboutique.git
+    - cd thebikeboutique.git
+    - git push --mirror https://$GITHUB_USERNAME:$GITHUB_TOKEN@github.com/thebikeboutique/tbb.git
+  only:
+    - master   # or your branch name
