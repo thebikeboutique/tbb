@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>The Bike Boutique</title>
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0" />
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
+        <link rel="icon" href="imgs/favicon.png" type="image/png">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="stylo.css"> 
+    </head>
+
+    <body>
+
+        <header class="header" id="header">
+         <nav class="nav container">
+            <a href="index.html" class="nav__logo"><img src="imgs/logo.png"></a>
+
+            <div class="nav__menu" id="nav-menu">
+               <ul class="nav__list">
+                  <li class="nav__item">
+                     <a href="helmets.html" class="nav__link">Helmets</a>
+                  </li>
+
+                  <li class="nav__item">
+                     <a href="accessories.html" class="nav__link">Accessories</a>
+                  </li>
+
+                  <li class="nav__item">
+                     <a href="contacts.html" class="nav__link">Store Locator</a>
+                  </li>
+               </ul>
+
+               <!-- Close button -->
+               <div class="nav__close" id="nav-close">
+                  <i class="ri-close-line"></i>
+               </div>
+            </div>
+
+            <div class="nav__actions">
+               <!-- Search button -->
+               <!-- <i class="ri-search-line nav__search" id="search-btn" onclick="window.location.href='search.html'"></i> -->
+
+                <div class="cart-icon nav__login" id="cart-icon login-btn">
+                    <i class="ri-heart-line"></i>
+                    <span id="cart-count">0</span>
+                </div>
+
+               <!-- Login button -->
+               <!--<i class="ri-user-line nav__login" id="login-btn"></i>-->
+
+               <!-- Toggle button -->
+               <div class="nav__toggle" id="nav-toggle">
+                  <i class="ri-menu-line"></i>
+               </div>
+            </div>
+         </nav>
+        </header>
+
+        <section id="body2">
+            <section1 class="main-contain">
+                <div class="tab-nav-bar">
+                    <div class="tab-navigation">
+                        <ul class="tab-menu">
+                            <a href="index.html"><li class="tab-btn">All</li></a>
+                            <a href="helmets.html"><li class="tab-btn active">Helmets</li></a>
+                            <a href="accessories.html"><li class="tab-btn">Accessories</li></a>
+                            <a href="budgetfriendly.html"><li class="tab-btn">Budget Friendly</li></a>
+                            <a href="spares.html"><li class="tab-btn">Spares</li></a>
+                        </ul>
+                    </div>
+                </div>
+            </section1>
+        </section> 
+
+        <section id="header2">
+            <div>
+                <ul id="navbar2">
+                    <li><a href="index.html"> <span>Online</span></a></li>
+                    <li><a href="contact.html"> <span>Store</span></a></li>
+                    <li><a href="https://wa.me/8420883801"> <span>Chat</span></a></li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="ad-banner">
+            <div class="ad-text">
+                <p>Upto <strong>12% OFF</strong> on Online Purchases. <strong>SHOP NOW!</strong></p>
+            </div>
+        </section>
+
+
+
+        <div class="sbb-head">
+            <h2>AXOR</h2>
+            <p>All Latest Collections bundled in one place.</p>
+        </div>
+
+        <div class="products container">
+    
+            <div class="product-card">
+                <img src="https://axorhelmets.com/cdn/shop/files/BlackRed_2_90dab69c-a3ee-4c7c-a33a-5aeb8d40aaba_765x.jpg?v=1686545753" alt="" class="product-image" onclick="window.location.href='axor1.html'">
+                <p class="brand-name">AXOR</p>
+                <h2 class="product-name" onclick="window.location.href='axor1.html'">Apex Marvel Venom Helmet (Black/Red)</h2>
+                <div class="product-info">
+                    <div class="price-data" onclick="window.location.href='axor1.html'">
+                        <p class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </p>
+                        <h2 class="product-price">₹6500</h2>
+                    </div>
+                    <div class="add-to-cart" onclick="addToCart(this.parentElement.parentElement)">
+                        <i class="ri-heart-line"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://axorhelmets.com/cdn/shop/files/Jokers_2_765x.jpg?v=1685967075" alt="" class="product-image" onclick="window.location.href='axor2.html'">
+                <p class="brand-name">AXOR</p>
+                <h2 class="product-name" onclick="window.location.href='axor2.html'">Apex DC Joker Helmet (White/Green)</h2>
+                <div class="product-info">
+                    <div class="price-data" onclick="window.location.href='axor2.html'">
+                        <p class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </p>
+                        <h2 class="product-price">₹6500</h2>
+                    </div>
+                    <div class="add-to-cart" onclick="addToCart(this.parentElement.parentElement)">
+                        <i class="ri-heart-line"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://axorhelmets.com/cdn/shop/files/xbhb_2_765x.jpg?v=1686398721" alt="" class="product-image" onclick="window.location.href='axor3.html'">
+                <p class="brand-name">AXOR</p>
+                <h2 class="product-name" onclick="window.location.href='axor3.html'">Axor xBhp Speed of Thought Helmet (Neon Yellow/Blue)</h2>
+                <div class="product-info">
+                    <div class="price-data" onclick="window.location.href='axor3.html'">
+                        <p class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </p>
+                        <h2 class="product-price">₹6500</h2>
+                    </div>
+                    <div class="add-to-cart" onclick="addToCart(this.parentElement.parentElement)">
+                        <i class="ri-heart-line"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://axorhelmets.com/cdn/shop/files/REDBLACK_2_8267343c-bc2e-47e0-9dff-8cc76588e19f_765x.jpg?v=1721902090" alt="" class="product-image" onclick="window.location.href='axor4.html'">
+                <p class="brand-name">AXOR</p>
+                <h2 class="product-name" onclick="window.location.href='axor4.html'">Apex Marvel Deadpool Helmet (Red Black)</h2>
+                <div class="product-info">
+                    <div class="price-data" onclick="window.location.href='axor4.html'">
+                        <p class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </p>
+                        <h2 class="product-price">₹6500</h2>
+                    </div>
+                    <div class="add-to-cart" onclick="addToCart(this.parentElement.parentElement)">
+                        <i class="ri-heart-line"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://axorhelmets.com/cdn/shop/files/Legend_2_765x.jpg?v=1686549130" alt="" class="product-image" onclick="window.location.href='axor5.html'">
+                <p class="brand-name">AXOR</p>
+                <h2 class="product-name" onclick="window.location.href='axor5.html'">Axor Retro Jet Leather Helmet (Dull Black)</h2>
+                <div class="product-info">
+                    <div class="price-data" onclick="window.location.href='axor5.html'">
+                        <p class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </p>
+                        <h2 class="product-price">₹5903</h2>
+                    </div>
+                    <div class="add-to-cart" onclick="addToCart(this.parentElement.parentElement)">
+                        <i class="ri-heart-line"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://axorhelmets.com/cdn/shop/files/VenomousBlack_2_765x.jpg?v=1686134073" alt="" class="product-image" onclick="window.location.href='axor6.html'">
+                <p class="brand-name">AXOR</p>
+                <h2 class="product-name" onclick="window.location.href='axor6.html'">Apex Venomous Helmet (Black/Grey)</h2>
+                <div class="product-info">
+                    <div class="price-data" onclick="window.location.href='axor6.html'">
+                        <p class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </p>
+                        <h2 class="product-price">₹4994</h2>
+                    </div>
+                    <div class="add-to-cart" onclick="addToCart(this.parentElement.parentElement)">
+                        <i class="ri-heart-line"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://axorhelmets.com/cdn/shop/files/BLACKPURPLE2_765x.png?v=1735728015" alt="" class="product-image" onclick="window.location.href='axor7.html'">
+                <p class="brand-name">AXOR</p>
+                <h2 class="product-name" onclick="window.location.href='axor7.html'">Apex Marvel Black Panther Helmet (Black Purple)</h2>
+                <div class="product-info">
+                    <div class="price-data" onclick="window.location.href='axor7.html'">
+                        <p class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </p>
+                        <h2 class="product-price">₹6500</h2>
+                    </div>
+                    <div class="add-to-cart" onclick="addToCart(this.parentElement.parentElement)">
+                        <i class="ri-heart-line"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://axorhelmets.com/cdn/shop/files/BLACK_GOLD_2_765x.jpg?v=1735728015" alt="" class="product-image" onclick="window.location.href='axor8.html'">
+                <p class="brand-name">AXOR</p>
+                <h2 class="product-name" onclick="window.location.href='axor8.html'">Apex Marvel Black Panther Helmet (Black Gold)</h2>
+                <div class="product-info">
+                    <div class="price-data" onclick="window.location.href='axor8.html'">
+                        <p class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </p>
+                        <h2 class="product-price">₹6500</h2>
+                    </div>
+                    <div class="add-to-cart" onclick="addToCart(this.parentElement.parentElement)">
+                        <i class="ri-heart-line"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://axorhelmets.com/cdn/shop/files/TurbineBlackBlue_2_765x.jpg?v=1686224510" alt="" class="product-image" onclick="window.location.href='axor9.html'">
+                <p class="brand-name">AXOR</p>
+                <h2 class="product-name" onclick="window.location.href='axor9.html'">Apex Turbine Hex Helmet (Blue/Red)</h2>
+                <div class="product-info">
+                    <div class="price-data" onclick="window.location.href='axor9.html'">
+                        <p class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </p>
+                        <h2 class="product-price">₹4994</h2>
+                    </div>
+                    <div class="add-to-cart" onclick="addToCart(this.parentElement.parentElement)">
+                        <i class="ri-heart-line"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://axorhelmets.com/cdn/shop/files/HexBlue_2_765x.jpg?v=1715682411" alt="" class="product-image" onclick="window.location.href='axor10.html'">
+                <p class="brand-name">AXOR</p>
+                <h2 class="product-name" onclick="window.location.href='axor10.html'">Apex Hex-2 Helmet (Blue/Red)</h2>
+                <div class="product-info">
+                    <div class="price-data" onclick="window.location.href='axor10.html'">
+                        <p class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </p>
+                        <h2 class="product-price">₹4994</h2>
+                    </div>
+                    <div class="add-to-cart" onclick="addToCart(this.parentElement.parentElement)">
+                        <i class="ri-heart-line"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://axorhelmets.com/cdn/shop/files/CoolGreyRed2_765x.jpg?v=1685711574" alt="" class="product-image" onclick="window.location.href='axor11.html'">
+                <p class="brand-name">AXOR</p>
+                <h2 class="product-name" onclick="window.location.href='axor11.html'">Apex Hex-2 Helmet (Cool Grey/Red)</h2>
+                <div class="product-info">
+                    <div class="price-data" onclick="window.location.href='axor11.html'">
+                        <p class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </p>
+                        <h2 class="product-price">₹4994</h2>
+                    </div>
+                    <div class="add-to-cart" onclick="addToCart(this.parentElement.parentElement)">
+                        <i class="ri-heart-line"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://axorhelmets.com/cdn/shop/files/WhiteRed_2_765x.jpg?v=1715682411" alt="" class="product-image" onclick="window.location.href='axor12.html'">
+                <p class="brand-name">AXOR</p>
+                <h2 class="product-name" onclick="window.location.href='axor12.html'">Apex Hex-2 Helmet (White/Red)</h2>
+                <div class="product-info">
+                    <div class="price-data" onclick="window.location.href='axor12.html'">
+                        <p class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </p>
+                        <h2 class="product-price">₹4994</h2>
+                    </div>
+                    <div class="add-to-cart" onclick="addToCart(this.parentElement.parentElement)">
+                        <i class="ri-heart-line"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://axorhelmets.com/cdn/shop/files/NeonYellowBlue_2_765x.jpg?v=1715682411" alt="" class="product-image" onclick="window.location.href='axor13.html'">
+                <p class="brand-name">AXOR</p>
+                <h2 class="product-name" onclick="window.location.href='axor13.html'">Apex Hex-2 Helmet (Neon Yellow/Blue)</h2>
+                <div class="product-info">
+                    <div class="price-data" onclick="window.location.href='axor13.html'">
+                        <p class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </p>
+                        <h2 class="product-price">₹4994</h2>
+                    </div>
+                    <div class="add-to-cart" onclick="addToCart(this.parentElement.parentElement)">
+                        <i class="ri-heart-line"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://axorhelmets.com/cdn/shop/files/BLACKGREY_2_aa1e9c8e-eccd-4af9-a019-ed259a6e244c_765x.jpg?v=1710931912" alt="" class="product-image" onclick="window.location.href='axor14.html'">
+                <p class="brand-name">AXOR</p>
+                <h2 class="product-name" onclick="window.location.href='axor14.html'">Apex Hunter Helmet (Black/Grey)</h2>
+                <div class="product-info">
+                    <div class="price-data" onclick="window.location.href='axor14.html'">
+                        <p class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </p>
+                        <h2 class="product-price">₹4994</h2>
+                    </div>
+                    <div class="add-to-cart" onclick="addToCart(this.parentElement.parentElement)">
+                        <i class="ri-heart-line"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://axorhelmets.com/cdn/shop/files/DULLBLACKRED_2_aa17d66f-df6c-400d-a6d9-b51c13632311_765x.jpg?v=1715250619" alt="" class="product-image" onclick="window.location.href='axor15.html'">
+                <p class="brand-name">AXOR</p>
+                <h2 class="product-name" onclick="window.location.href='axor15.html'">Apex Streak Helmet (Black/Red)</h2>
+                <div class="product-info">
+                    <div class="price-data" onclick="window.location.href='axor15.html'">
+                        <p class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </p>
+                        <h2 class="product-price">₹4994</h2>
+                    </div>
+                    <div class="add-to-cart" onclick="addToCart(this.parentElement.parentElement)">
+                        <i class="ri-heart-line"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://axorhelmets.com/cdn/shop/files/WhiteBlue_2_765x.jpg?v=1715682411" alt="" class="product-image" onclick="window.location.href='axor16.html'">
+                <p class="brand-name">AXOR</p>
+                <h2 class="product-name" onclick="window.location.href='axor16.html'">Apex Hex-2 Helmet (White/M.Blue)</h2>
+                <div class="product-info">
+                    <div class="price-data" onclick="window.location.href='axor16.html'">
+                        <p class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </p>
+                        <h2 class="product-price">₹4994</h2>
+                    </div>
+                    <div class="add-to-cart" onclick="addToCart(this.parentElement.parentElement)">
+                        <i class="ri-heart-line"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://axorhelmets.com/cdn/shop/files/Black2_0cfe1beb-0d42-4ef6-9a17-af19c92d3e4f_765x.jpg?v=1720503844" alt="" class="product-image" onclick="window.location.href='axor17.html'">
+                <p class="brand-name">AXOR</p>
+                <h2 class="product-name" onclick="window.location.href='axor17.html'">Apex Solid Color Helmet (Solid Black)</h2>
+                <div class="product-info">
+                    <div class="price-data" onclick="window.location.href='axor17.html'">
+                        <p class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </p>
+                        <h2 class="product-price">₹4994</h2>
+                    </div>
+                    <div class="add-to-cart" onclick="addToCart(this.parentElement.parentElement)">
+                        <i class="ri-heart-line"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://axorhelmets.com/cdn/shop/files/Dullblack2_765x.jpg?v=1720503844" alt="" class="product-image" onclick="window.location.href='axor18.html'">
+                <p class="brand-name">AXOR</p>
+                <h2 class="product-name" onclick="window.location.href='axor18.html'">Apex Solid Color Helmet (Dull Black)</h2>
+                <div class="product-info">
+                    <div class="price-data" onclick="window.location.href='axor18.html'">
+                        <p class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </p>
+                        <h2 class="product-price">₹4994</h2>
+                    </div>
+                    <div class="add-to-cart" onclick="addToCart(this.parentElement.parentElement)">
+                        <i class="ri-heart-line"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://axorhelmets.com/cdn/shop/files/SeaDevilBlackGold_2_765x.jpg?v=1686132928" alt="" class="product-image" onclick="window.location.href='axor19.html'">
+                <p class="brand-name">AXOR</p>
+                <h2 class="product-name" onclick="window.location.href='axor19.html'">Apex Seadevil Helmet (Black/Gold)</h2>
+                <div class="product-info">
+                    <div class="price-data" onclick="window.location.href='axor19.html'">
+                        <p class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </p>
+                        <h2 class="product-price">₹4994</h2>
+                    </div>
+                    <div class="add-to-cart" onclick="addToCart(this.parentElement.parentElement)">
+                        <i class="ri-heart-line"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://axorhelmets.com/cdn/shop/files/SeaDevilBlackRed_2_765x.jpg?v=1715679730" alt="" class="product-image" onclick="window.location.href='axor20.html'">
+                <p class="brand-name">AXOR</p>
+                <h2 class="product-name" onclick="window.location.href='axor20.html'">Apex Seadevil Helmet (Black/Red)</h2>
+                <div class="product-info">
+                    <div class="price-data" onclick="window.location.href='axor20.html'">
+                        <p class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </p>
+                        <h2 class="product-price">₹4994</h2>
+                    </div>
+                    <div class="add-to-cart" onclick="addToCart(this.parentElement.parentElement)">
+                        <i class="ri-heart-line"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://axorhelmets.com/cdn/shop/files/SeaDevilWhiteGold_2_765x.jpg?v=1715679730" alt="" class="product-image" onclick="window.location.href='axor21.html'">
+                <p class="brand-name">AXOR</p>
+                <h2 class="product-name" onclick="window.location.href='axor21.html'">Apex Seadevil Helmet (White/Gold)</h2>
+                <div class="product-info">
+                    <div class="price-data" onclick="window.location.href='axor21.html'">
+                        <p class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </p>
+                        <h2 class="product-price">₹4994</h2>
+                    </div>
+                    <div class="add-to-cart" onclick="addToCart(this.parentElement.parentElement)">
+                        <i class="ri-heart-line"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://www.motomodz.com/cdn/shop/files/Untitleddesign-2023-12-05T160416.312.png?v=1728133096&width=675" alt="" class="product-image" onclick="window.location.href='axor22.html'">
+                <p class="brand-name">AXOR</p>
+                <h2 class="product-name" onclick="window.location.href='axor22.html'">Apex Seadevil Helmet (White/Red)</h2>
+                <div class="product-info">
+                    <div class="price-data" onclick="window.location.href='axor22.html'">
+                        <p class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </p>
+                        <h2 class="product-price">₹4994</h2>
+                    </div>
+                    <div class="add-to-cart" onclick="addToCart(this.parentElement.parentElement)">
+                        <i class="ri-heart-line"></i>
+                    </div>
+                </div>
+            </div>
+
+            
+    
+        </div>
+
+
+        <div class="cart-model" id="cart-model">
+            <div class="cart-head">
+                <h2>Your Wishlist</h2>
+                <button class="close-btn">X</button>
+            </div>
+    
+            <ul id="cart-items">
+    
+            </ul>
+    
+            <div class="cart-total">Total: ₹<span id="total-price">0</span></div>
+            <div class="checkout-btn" onclick="window.location.href='sunglasses.html'">Explore More&ensp;➡</div>
+        </div>
+
+        <footer>
+            <div class="footer_container">
+                <div class="sec">
+                    <h3>About Us</h3>
+                    <p>The Bike Boutique established in 2018, we sell Premium Quality Helmets & Bike Accessories. With over 10+ brands to choose from. Also highly budget friendly. Visit Store Today.</p>
+
+                    <ul class="sci">
+                        <li><a href="https://www.instagram.com/the_bike_boutique_/"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
+                        <!-- <li><a href=""><i class="fab fa-facebook" aria-hidden="true"></i></a></li>
+                        <li><a href=""><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
+                        <li><a href=""><i class="fab fa-youtube" aria-hidden="true"></i></a></li> -->
+                    </ul>
+                </div>
+
+                <div class="sec quicklinks">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="contact.html">Store Locator</a></li>
+                        <li><a href="https://g.co/kgs/v2WWNei">Visit Store</a></li>
+                        <li><a href="Wa.me/8420883801/">Help? Chat With Us!</a></li>
+                        <li><a href="https://merchant.razorpay.com/policy/QiBUPGzHZaLxZY/termshttps://merchant.razorpay.com/policy/QiBUPGzHZaLxZY/terms">Policies</a></li>
+                        <li><a href="privacy.html">Privacy Policy</a></li>
+                        <li><a href="terms.html">Terms & Conditions</a></li>
+                    </ul>
+                </div>
+
+                <div class="sec contact">
+                    <h3>Contact</h3>
+                    <ul class="info">
+                        <li>
+                            <span><i class="fa fa-map" aria-hidden="true"></i> &ensp; 22/A, 23, 1st Rd, Ajoy Nagar, Mukundapur, </br>Kolkata-700075 (WB), India</span> 
+                        </li>
+
+                        <li>
+                            <p> <span><i class="fa fa-phone" aria-hidden="true"></i></span> <a href="tel:8420883801">Call Us!</a></p>
+                        </li>
+
+                        <li>
+                            <p> <span><i class="fa fa-envelope" aria-hidden="true"></i></span> <a href="mailto:thebikeboutique2023@gmail.com">Email Us!</a></p>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+
+
+            <div class="copyright">
+                <p>Copyright 2025 The Bike Boutique. All Rights Reserved.</p>
+            </div>
+        </footer>
+        
+        <script src="scripts.js"></script>
+        <script src="script.js"></script>
+    </body>
+
+</html>

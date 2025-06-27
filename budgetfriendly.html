@@ -1,0 +1,1353 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>The Bike Boutique</title>
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0" />
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
+        <link rel="icon" href="imgs/favicon.png" type="image/png">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="stylo.css"> 
+    </head>
+
+    <body>
+
+        <header class="header" id="header">
+         <nav class="nav container">
+            <a href="index.html" class="nav__logo"><img src="imgs/logo.png"></a>
+
+            <div class="nav__menu" id="nav-menu">
+               <ul class="nav__list">
+                  <li class="nav__item">
+                     <a href="helmets.html" class="nav__link">Helmets</a>
+                  </li>
+
+                  <li class="nav__item">
+                     <a href="accessories.html" class="nav__link">Accessories</a>
+                  </li>
+
+                  <li class="nav__item">
+                     <a href="contacts.html" class="nav__link">Store Locator</a>
+                  </li>
+               </ul>
+
+               <!-- Close button -->
+               <div class="nav__close" id="nav-close">
+                  <i class="ri-close-line"></i>
+               </div>
+            </div>
+
+            <div class="nav__actions">
+               <!-- Search button -->
+               <!-- <i class="ri-search-line nav__search" id="search-btn" onclick="window.location.href='search.html'"></i> -->
+
+                <div class="cart-icon nav__login" id="cart-icon login-btn">
+                    <i class="ri-heart-line"></i>
+                    <span id="cart-count">0</span>
+                </div>
+
+               <!-- Login button -->
+               <!--<i class="ri-user-line nav__login" id="login-btn"></i>-->
+
+               <!-- Toggle button -->
+               <div class="nav__toggle" id="nav-toggle">
+                  <i class="ri-menu-line"></i>
+               </div>
+            </div>
+         </nav>
+        </header>
+
+        <section id="body2">
+            <section1 class="main-contain">
+                <div class="tab-nav-bar">
+                    <div class="tab-navigation">
+                        <ul class="tab-menu">
+                            <a href="index.html"><li class="tab-btn">All</li></a>
+                            <a href="helmets.html"><li class="tab-btn">Helmets</li></a>
+                            <a href="accessories.html"><li class="tab-btn">Accessories</li></a>
+                            <a href="budgetfriendly.html"><li class="tab-btn active">Budget Friendly</li></a>
+                            <a href="spares.html"><li class="tab-btn">Spares</li></a>
+                        </ul>
+                    </div>
+                </div>
+            </section1>
+        </section> 
+
+        <section id="header2">
+            <div>
+                <ul id="navbar2">
+                    <li><a href="index.html"> <span>Online</span></a></li>
+                    <li><a href="contact.html"> <span>Store</span></a></li>
+                    <li><a href="https://wa.me/8420883801"> <span>Chat</span></a></li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="ad-banner">
+            <div class="ad-text">
+                <p>Upto <strong>12% OFF</strong> on Online Purchases. <strong>SHOP NOW!</strong></p>
+            </div>
+        </section>
+
+
+
+        <div class="sbb-head">
+            <h2>BUDGET FRIENDLY</h2>
+            <p>All Budget Friendly bundled in one place.</p>
+        </div>
+        <div class="products container">
+
+            <div class="product-card">
+                <img src="https://shop.studds.com/wp-content/uploads/2023/04/VOUGE-BLACK-MATT_ISO.jpg" alt="" class="product-image" onclick="window.location.href='studs12.html'">
+                <p class="brand-name">STUDDS</p>
+                <h2 class="product-name" onclick="window.location.href='studs12.html'">VOGUE MATT BLACK</h2>
+                <div class="product-info">
+                    <div class="price-data" onclick="window.location.href='studs12.html'">
+                        <p class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </p>
+                        <h2 class="product-price">₹1075</h2>
+                    </div>
+                    <div class="add-to-cart" onclick="addToCart(this.parentElement.parentElement)">
+                        <i class="ri-heart-line"></i>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="product-card">
+                <img src="https://vegaauto.com/wp-content/uploads/2024/07/Black-Neon-Yellow-2-3.png" alt="" class="product-image" onclick="window.location.href='vega1.html'">
+                <p class="brand-name">VEGA</p>
+                <h2 class="product-name" onclick="window.location.href='vega1.html'">Lark Twist Helmet (Black/Neon Yellow)</h2>
+                <div class="product-info">
+                    <div class="price-data" onclick="window.location.href='vega1.html'">
+                        <p class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </p>
+                        <h2 class="product-price">₹1490</h2>
+                    </div>
+                    <div class="add-to-cart" onclick="addToCart(this.parentElement.parentElement)">
+                        <i class="ri-heart-line"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://vegaauto.com/wp-content/uploads/2024/07/BLACK-RED-2-9.png" alt="" class="product-image" onclick="window.location.href='vega2.html'">
+                <p class="brand-name">VEGA</p>
+                <h2 class="product-name" onclick="window.location.href='vega2.html'">Vega Lark Twist (Black/Red)</h2>
+                <div class="product-info">
+                    <div class="price-data" onclick="window.location.href='vega2.html'">
+                        <p class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </p>
+                        <h2 class="product-price">₹1490</h2>
+                    </div>
+                    <div class="add-to-cart" onclick="addToCart(this.parentElement.parentElement)">
+                        <i class="ri-heart-line"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://shop.studds.com/wp-content/uploads/2023/04/VOGUE-DAPPER-BLUE_ISO.jpg" alt="" class="product-image" onclick="window.location.href='studs15.html'">
+                <p class="brand-name">STUDDS</p>
+                <h2 class="product-name" onclick="window.location.href='studs15.html'">VOGUE DAPPER BLUE</h2>
+                <div class="product-info">
+                    <div class="price-data" onclick="window.location.href='studs15.html'">
+                        <p class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </p>
+                        <h2 class="product-price">₹1075</h2>
+                    </div>
+                    <div class="add-to-cart" onclick="addToCart(this.parentElement.parentElement)">
+                        <i class="ri-heart-line"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://www.customelements.in/wp-content/uploads/2024/08/Steelbird-SBA-21-Dual-Visor-Pantha-Matt-Black-with-Red-and-Blue-Helmet-1-1-510x510.webp" alt="" class="product-image" onclick="window.location.href='sb12.html'">
+                <p class="brand-name">STEELBIRD</p>
+                <h2 class="product-name" onclick="window.location.href='sb12.html'">SBA-21 ISS (Pantha Black/Red & Blue Spoiler)</h2>
+                <div class="product-info">
+                    <div class="price-data" onclick="window.location.href='sb12.html'">
+                        <p class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </p>
+                        <h2 class="product-price">₹1799</h2>
+                    </div>
+                    <div class="add-to-cart" onclick="addToCart(this.parentElement.parentElement)">
+                        <i class="ri-heart-line"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://www.customelements.in/wp-content/uploads/2024/08/Steelbird-SBA-21-Dual-Visor-Pantha-Matt-Black-with-Red-and-Neon-Helmet-1-1-510x510.webp" alt="" class="product-image" onclick="window.location.href='sb13.html'">
+                <p class="brand-name">STEELBIRD</p>
+                <h2 class="product-name" onclick="window.location.href='sb13.html'">SBA-21 ISS 600MM (Pantha Black/Red Neon Spoiler)</h2>
+                <div class="product-info">
+                    <div class="price-data" onclick="window.location.href='sb13.html'">
+                        <p class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </p>
+                        <h2 class="product-price">₹1929</h2>
+                    </div>
+                    <div class="add-to-cart" onclick="addToCart(this.parentElement.parentElement)">
+                        <i class="ri-heart-line"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://www.customelements.in/wp-content/uploads/2024/08/Steelbird-SBA-21-Dual-Visor-Pantha-Matt-Black-with-Neon-Green-Helmet-1-510x510.webp" alt="" class="product-image" onclick="window.location.href='sb14.html'">
+                <p class="brand-name">STEELBIRD</p>
+                <h2 class="product-name" onclick="window.location.href='sb14.html'">SBA-21 ISS 580MM (Matt Black/Neon Green Visor)</h2>
+                <div class="product-info">
+                    <div class="price-data" onclick="window.location.href='sb14.html'">
+                        <p class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </p>
+                        <h2 class="product-price">₹1929</h2>
+                    </div>
+                    <div class="add-to-cart" onclick="addToCart(this.parentElement.parentElement)">
+                        <i class="ri-heart-line"></i>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="product-card">
+                <img src="https://vegaauto.com/wp-content/uploads/2024/07/Dull-Black-Red-2-6.png" alt="" class="product-image" onclick="window.location.href='vega3.html'">
+                <p class="brand-name">VEGA</p>
+                <h2 class="product-name" onclick="window.location.href='vega3.html'">Lark Twist Helmet (Dull Black/Red)</h2>
+                <div class="product-info">
+                    <div class="price-data" onclick="window.location.href='vega3.html'">
+                        <p class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </p>
+                        <h2 class="product-price">₹1490</h2>
+                    </div>
+                    <div class="add-to-cart" onclick="addToCart(this.parentElement.parentElement)">
+                        <i class="ri-heart-line"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://vegaauto.com/wp-content/uploads/2024/07/kr-2.png" alt="" class="product-image" onclick="window.location.href='vega4.html'">
+                <p class="brand-name">VEGA</p>
+                <h2 class="product-name" onclick="window.location.href='vega4.html'">Lark Legend Helmet (Black/Red)</h2>
+                <div class="product-info">
+                    <div class="price-data" onclick="window.location.href='vega4.html'">
+                        <p class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </p>
+                        <h2 class="product-price">₹1490</h2>
+                    </div>
+                    <div class="add-to-cart" onclick="addToCart(this.parentElement.parentElement)">
+                        <i class="ri-heart-line"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://shop.studds.com/wp-content/uploads/2023/04/VOUGE-GREEN_01.jpg" alt="" class="product-image" onclick="window.location.href='studs18.html'">
+                <p class="brand-name">STUDDS</p>
+                <h2 class="product-name" onclick="window.location.href='studs18.html'">VOGUE PARROT GREEN</h2>
+                <div class="product-info">
+                    <div class="price-data" onclick="window.location.href='studs18.html'">
+                        <p class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </p>
+                        <h2 class="product-price">₹1075</h2>
+                    </div>
+                    <div class="add-to-cart" onclick="addToCart(this.parentElement.parentElement)">
+                        <i class="ri-heart-line"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://shop.studds.com/wp-content/uploads/2022/06/RAY-BLACK.jpg" alt="" class="product-image" onclick="window.location.href='studs19.html'">
+                <p class="brand-name">STUDDS</p>
+                <h2 class="product-name" onclick="window.location.href='studs19.html'">RAY BLACK</h2>
+                <div class="product-info">
+                    <div class="price-data" onclick="window.location.href='studs19.html'">
+                        <p class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </p>
+                        <h2 class="product-price">₹1020</h2>
+                    </div>
+                    <div class="add-to-cart" onclick="addToCart(this.parentElement.parentElement)">
+                        <i class="ri-heart-line"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://vegaauto.com/wp-content/uploads/2024/06/Bolt-black-2.png" alt="" class="product-image" onclick="window.location.href='vega5.html'">
+                <p class="brand-name">VEGA</p>
+                <h2 class="product-name" onclick="window.location.href='vega5.html'">Bolt Helmet (Black)</h2>
+                <div class="product-info">
+                    <div class="price-data" onclick="window.location.href='vega5.html'">
+                        <p class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </p>
+                        <h2 class="product-price">₹1997</h2>
+                    </div>
+                    <div class="add-to-cart" onclick="addToCart(this.parentElement.parentElement)">
+                        <i class="ri-heart-line"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://vegaauto.com/wp-content/uploads/2024/06/Bolt-Dull-Black-2.png" alt="" class="product-image" onclick="window.location.href='vega6.html'">
+                <p class="brand-name">VEGA</p>
+                <h2 class="product-name" onclick="window.location.href='vega6.html'">Bolt Helmet (Dull Black)</h2>
+                <div class="product-info">
+                    <div class="price-data" onclick="window.location.href='vega6.html'">
+                        <p class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </p>
+                        <h2 class="product-price">₹1997</h2>
+                    </div>
+                    <div class="add-to-cart" onclick="addToCart(this.parentElement.parentElement)">
+                        <i class="ri-heart-line"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://shop.studds.com/wp-content/uploads/2023/02/Ray-Super-Black-02-1.jpg" alt="" class="product-image" onclick="window.location.href='studs24.html'">
+                <p class="brand-name">STUDDS</p>
+                <h2 class="product-name" onclick="window.location.href='studs24.html'">RAY SUPER BLACK</h2>
+                <div class="product-info">
+                    <div class="price-data" onclick="window.location.href='studs24.html'">
+                        <p class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </p>
+                        <h2 class="product-price">₹1050</h2>
+                    </div>
+                    <div class="add-to-cart" onclick="addToCart(this.parentElement.parentElement)">
+                        <i class="ri-heart-line"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://shop.studds.com/wp-content/uploads/2022/06/RAY-MILTARY-GREEN_05-1.jpg" alt="" class="product-image" onclick="window.location.href='studs25.html'">
+                <p class="brand-name">STUDDS</p>
+                <h2 class="product-name" onclick="window.location.href='studs25.html'">RAY SUPER MILITARY GREEN</h2>
+                <div class="product-info">
+                    <div class="price-data" onclick="window.location.href='studs25.html'">
+                        <p class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </p>
+                        <h2 class="product-price">₹1050</h2>
+                    </div>
+                    <div class="add-to-cart" onclick="addToCart(this.parentElement.parentElement)">
+                        <i class="ri-heart-line"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://vegaauto.com/wp-content/uploads/2024/07/DKS-2.png" alt="" class="product-image" onclick="window.location.href='vega7.html'">
+                <p class="brand-name">VEGA</p>
+                <h2 class="product-name" onclick="window.location.href='vega7.html'">Lark Legend Helmet (Dull Black/Silver)</h2>
+                <div class="product-info">
+                    <div class="price-data" onclick="window.location.href='vega7.html'">
+                        <p class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </p>
+                        <h2 class="product-price">₹1490</h2>
+                    </div>
+                    <div class="add-to-cart" onclick="addToCart(this.parentElement.parentElement)">
+                        <i class="ri-heart-line"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://shop.studds.com/wp-content/uploads/2023/02/RAY-SUPER-DAPPER-BLUE_01-1.jpg" alt="" class="product-image" onclick="window.location.href='studs26.html'">
+                <p class="brand-name">STUDDS</p>
+                <h2 class="product-name" onclick="window.location.href='studs26.html'">RAY SUPER DAPPER BLUE</h2>
+                <div class="product-info">
+                    <div class="price-data" onclick="window.location.href='studs26.html'">
+                        <p class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </p>
+                        <h2 class="product-price">₹1050</h2>
+                    </div>
+                    <div class="add-to-cart" onclick="addToCart(this.parentElement.parentElement)">
+                        <i class="ri-heart-line"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://shop.studds.com/wp-content/uploads/2022/06/RAY-MILTARY-GREEN_05-1.jpg" alt="" class="product-image" onclick="window.location.href='studs27.html'">
+                <p class="brand-name">STUDDS</p>
+                <h2 class="product-name" onclick="window.location.href='studs27.html'">RAY MILITARY GREEN</h2>
+                <div class="product-info">
+                    <div class="price-data" onclick="window.location.href='studs27.html'">
+                        <p class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </p>
+                        <h2 class="product-price">₹1020</h2>
+                    </div>
+                    <div class="add-to-cart" onclick="addToCart(this.parentElement.parentElement)">
+                        <i class="ri-heart-line"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://vegaauto.com/wp-content/uploads/2024/07/Bolt-Southpaw-white-grey-2.png" alt="" class="product-image" onclick="window.location.href='vega9.html'">
+                <p class="brand-name">VEGA</p>
+                <h2 class="product-name" onclick="window.location.href='vega9.html'">Bolt Southpaw Left Hander Helmet (White/Grey)</h2>
+                <div class="product-info">
+                    <div class="price-data" onclick="window.location.href='vega9.html'">
+                        <p class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </p>
+                        <h2 class="product-price">₹2197</h2>
+                    </div>
+                    <div class="add-to-cart" onclick="addToCart(this.parentElement.parentElement)">
+                        <i class="ri-heart-line"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://shop.studds.com/wp-content/uploads/2022/06/RAY-BLUE.jpg" alt="" class="product-image" onclick="window.location.href='studs30.html'">
+                <p class="brand-name">STUDDS</p>
+                <h2 class="product-name" onclick="window.location.href='studs30.html'">RAY BLUE</h2>
+                <div class="product-info">
+                    <div class="price-data" onclick="window.location.href='studs30.html'">
+                        <p class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </p>
+                        <h2 class="product-price">₹1020</h2>
+                    </div>
+                    <div class="add-to-cart" onclick="addToCart(this.parentElement.parentElement)">
+                        <i class="ri-heart-line"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://shop.studds.com/wp-content/uploads/2022/06/RAY-WHITE.jpg" alt="" class="product-image" onclick="window.location.href='studs31.html'">
+                <p class="brand-name">STUDDS</p>
+                <h2 class="product-name" onclick="window.location.href='studs31.html'">RAY WHITE</h2>
+                <div class="product-info">
+                    <div class="price-data" onclick="window.location.href='studs31.html'">
+                        <p class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </p>
+                        <h2 class="product-price">₹1020</h2>
+                    </div>
+                    <div class="add-to-cart" onclick="addToCart(this.parentElement.parentElement)">
+                        <i class="ri-heart-line"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://vegaauto.com/wp-content/uploads/2024/07/Black-Neon-Green-2.png" alt="" class="product-image" onclick="window.location.href='vega10.html'">
+                <p class="brand-name">VEGA</p>
+                <h2 class="product-name" onclick="window.location.href='vega10.html'">Bolt Crown Men Helmet (Black/Neon Green)</h2>
+                <div class="product-info">
+                    <div class="price-data" onclick="window.location.href='vega10.html'">
+                        <p class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </p>
+                        <h2 class="product-price">₹2197</h2>
+                    </div>
+                    <div class="add-to-cart" onclick="addToCart(this.parentElement.parentElement)">
+                        <i class="ri-heart-line"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://vegaauto.com/wp-content/uploads/2024/07/Black-Red-2-2.png" alt="" class="product-image" onclick="window.location.href='vega11.html'">
+                <p class="brand-name">VEGA</p>
+                <h2 class="product-name" onclick="window.location.href='vega11.html'">Bolt Crown Men Helmet (Black/Red)</h2>
+                <div class="product-info">
+                    <div class="price-data" onclick="window.location.href='vega11.html'">
+                        <p class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </p>
+                        <h2 class="product-price">₹2197</h2>
+                    </div>
+                    <div class="add-to-cart" onclick="addToCart(this.parentElement.parentElement)">
+                        <i class="ri-heart-line"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://vegaauto.com/wp-content/uploads/2024/07/Dull-Black-Blue-2.png" alt="" class="product-image" onclick="window.location.href='vega12.html'">
+                <p class="brand-name">VEGA</p>
+                <h2 class="product-name" onclick="window.location.href='vega12.html'">Bolt Crown Men Helmet (Dull Black/Blue)</h2>
+                <div class="product-info">
+                    <div class="price-data" onclick="window.location.href='vega12.html'">
+                        <p class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </p>
+                        <h2 class="product-price">₹2197</h2>
+                    </div>
+                    <div class="add-to-cart" onclick="addToCart(this.parentElement.parentElement)">
+                        <i class="ri-heart-line"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://vegaauto.com/wp-content/uploads/2024/07/Blue-2-3.png" alt="" class="product-image" onclick="window.location.href='vega13.html'">
+                <p class="brand-name">VEGA</p>
+                <h2 class="product-name" onclick="window.location.href='vega13.html'">Bolt Octopus Helmet (Black/Blue)</h2>
+                <div class="product-info">
+                    <div class="price-data" onclick="window.location.href='vega13.html'">
+                        <p class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </p>
+                        <h2 class="product-price">₹2197</h2>
+                    </div>
+                    <div class="add-to-cart" onclick="addToCart(this.parentElement.parentElement)">
+                        <i class="ri-heart-line"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://shop.studds.com/wp-content/uploads/2023/02/TROOPER_GLOSS_BLACK-PINK_02.jpg" alt="" class="product-image" onclick="window.location.href='studs52.html'">
+                <p class="brand-name">STUDDS</p>
+                <h2 class="product-name" onclick="window.location.href='studs52.html'">TROOPER DV D1 (Black & Pink)</h2>
+                <div class="product-info">
+                    <div class="price-data" onclick="window.location.href='studs52.html'">
+                        <p class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </p>
+                        <h2 class="product-price">₹2190</h2>
+                    </div>
+                    <div class="add-to-cart" onclick="addToCart(this.parentElement.parentElement)">
+                        <i class="ri-heart-line"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://shop.studds.com/wp-content/uploads/2023/02/TROOPER-MATT-BLACK-AND-PINK_02.jpg" alt="" class="product-image" onclick="window.location.href='studs53.html'">
+                <p class="brand-name">STUDDS</p>
+                <h2 class="product-name" onclick="window.location.href='studs53.html'">TROOPER DV D1 N8 (Matt Black & Pink)</h2>
+                <div class="product-info">
+                    <div class="price-data" onclick="window.location.href='studs53.html'">
+                        <p class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </p>
+                        <h2 class="product-price">₹2190</h2>
+                    </div>
+                    <div class="add-to-cart" onclick="addToCart(this.parentElement.parentElement)">
+                        <i class="ri-heart-line"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://shop.studds.com/wp-content/uploads/2023/02/TROOPER_MATT_YALLOW-GREEN_04.jpg" alt="" class="product-image" onclick="window.location.href='studs54.html'">
+                <p class="brand-name">STUDDS</p>
+                <h2 class="product-name" onclick="window.location.href='studs54.html'">TROOPER DV D1 N1 (Matt Yellow & Green)</h2>
+                <div class="product-info">
+                    <div class="price-data" onclick="window.location.href='studs54.html'">
+                        <p class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </p>
+                        <h2 class="product-price">₹2190</h2>
+                    </div>
+                    <div class="add-to-cart" onclick="addToCart(this.parentElement.parentElement)">
+                        <i class="ri-heart-line"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://vegaauto.com/wp-content/uploads/2024/07/Green-2-1.png" alt="" class="product-image" onclick="window.location.href='vega14.html'">
+                <p class="brand-name">VEGA</p>
+                <h2 class="product-name" onclick="window.location.href='vega14.html'">Bolt Octopus Helmet (Black/Neon Green)</h2>
+                <div class="product-info">
+                    <div class="price-data" onclick="window.location.href='vega14.html'">
+                        <p class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </p>
+                        <h2 class="product-price">₹2197</h2>
+                    </div>
+                    <div class="add-to-cart" onclick="addToCart(this.parentElement.parentElement)">
+                        <i class="ri-heart-line"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://shop.studds.com/wp-content/uploads/2023/02/URBAN-BICYLE-HELMET-MATT-BLACK_ISO.jpg" alt="" class="product-image" onclick="window.location.href='studs32.html'">
+                <p class="brand-name">STUDDS</p>
+                <h2 class="product-name" onclick="window.location.href='studs32.html'">DAME BICYCLE HELMET MATT BLACK</h2>
+                <div class="product-info">
+                    <div class="price-data" onclick="window.location.href='studs32.html'">
+                        <p class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </p>
+                        <h2 class="product-price">₹975</h2>
+                    </div>
+                    <div class="add-to-cart" onclick="addToCart(this.parentElement.parentElement)">
+                        <i class="ri-heart-line"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://shop.studds.com/wp-content/uploads/2023/02/URBAN-DAME-MATT-BLUE_01.jpg" alt="" class="product-image" onclick="window.location.href='studs33.html'">
+                <p class="brand-name">STUDDS</p>
+                <h2 class="product-name" onclick="window.location.href='studs33.html'">DAME BICYCLE HELMET MATT BLUE</h2>
+                <div class="product-info">
+                    <div class="price-data" onclick="window.location.href='studs33.html'">
+                        <p class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </p>
+                        <h2 class="product-price">₹975</h2>
+                    </div>
+                    <div class="add-to-cart" onclick="addToCart(this.parentElement.parentElement)">
+                        <i class="ri-heart-line"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://shop.studds.com/wp-content/uploads/2023/02/DAME-MATT-GUN-GREY_05.jpg" alt="" class="product-image" onclick="window.location.href='studs34.html'">
+                <p class="brand-name">STUDDS</p>
+                <h2 class="product-name" onclick="window.location.href='studs34.html'">DAME BICYCLE HELMET MATT GUN GREY</h2>
+                <div class="product-info">
+                    <div class="price-data" onclick="window.location.href='studs34.html'">
+                        <p class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </p>
+                        <h2 class="product-price">₹975</h2>
+                    </div>
+                    <div class="add-to-cart" onclick="addToCart(this.parentElement.parentElement)">
+                        <i class="ri-heart-line"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://vegaauto.com/wp-content/uploads/2024/07/Dull-Red-2.png" alt="" class="product-image" onclick="window.location.href='vega15.html'">
+                <p class="brand-name">VEGA</p>
+                <h2 class="product-name" onclick="window.location.href='vega15.html'">Bolt Octopus Helmet (Dull Black/Red)</h2>
+                <div class="product-info">
+                    <div class="price-data" onclick="window.location.href='vega15.html'">
+                        <p class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </p>
+                        <h2 class="product-price">₹2197</h2>
+                    </div>
+                    <div class="add-to-cart" onclick="addToCart(this.parentElement.parentElement)">
+                        <i class="ri-heart-line"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://vegaauto.com/wp-content/uploads/2024/07/Bunny-KR-2-1.png" alt="" class="product-image" onclick="window.location.href='vega16.html'">
+                <p class="brand-name">VEGA</p>
+                <h2 class="product-name" onclick="window.location.href='vega16.html'">Bolt Bunny Helmet (Black/Red)</h2>
+                <div class="product-info">
+                    <div class="price-data" onclick="window.location.href='vega16.html'">
+                        <p class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </p>
+                        <h2 class="product-price">₹2197</h2>
+                    </div>
+                    <div class="add-to-cart" onclick="addToCart(this.parentElement.parentElement)">
+                        <i class="ri-heart-line"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://shop.studds.com/wp-content/uploads/2025/04/TROOPER-D4-MATT-BLACK-RED-BLUE-3.webp" alt="" class="product-image" onclick="window.location.href='studs49.html'">
+                <p class="brand-name">STUDDS</p>
+                <h2 class="product-name" onclick="window.location.href='studs49.html'">TROOPER D4 RACE N1 (Matt Black/Red & Blue)</h2>
+                <div class="product-info">
+                    <div class="price-data" onclick="window.location.href='studs49.html'">
+                        <p class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </p>
+                        <h2 class="product-price">₹2190</h2>
+                    </div>
+                    <div class="add-to-cart" onclick="addToCart(this.parentElement.parentElement)">
+                        <i class="ri-heart-line"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://shop.studds.com/wp-content/uploads/2025/04/TROOPER-D4-BLACK-GREY-BLUE-3.webp" alt="" class="product-image" onclick="window.location.href='studs50.html'">
+                <p class="brand-name">STUDDS</p>
+                <h2 class="product-name" onclick="window.location.href='studs50.html'">TROOPER D4 RACE N1 (Black/Grey & Blue)</h2>
+                <div class="product-info">
+                    <div class="price-data" onclick="window.location.href='studs50.html'">
+                        <p class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </p>
+                        <h2 class="product-price">₹2190</h2>
+                    </div>
+                    <div class="add-to-cart" onclick="addToCart(this.parentElement.parentElement)">
+                        <i class="ri-heart-line"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://shop.studds.com/wp-content/uploads/2025/04/TROOPER-D4-BLACK-RED-3.webp" alt="" class="product-image" onclick="window.location.href='studs51.html'">
+                <p class="brand-name">STUDDS</p>
+                <h2 class="product-name" onclick="window.location.href='studs51.html'">TROOPER D4 RACE N2 (Black/Red)</h2>
+                <div class="product-info">
+                    <div class="price-data" onclick="window.location.href='studs51.html'">
+                        <p class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </p>
+                        <h2 class="product-price">₹2190</h2>
+                    </div>
+                    <div class="add-to-cart" onclick="addToCart(this.parentElement.parentElement)">
+                        <i class="ri-heart-line"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://vegaauto.com/wp-content/uploads/2024/07/NY-2-1.png" alt="" class="product-image" onclick="window.location.href='vega17.html'">
+                <p class="brand-name">VEGA</p>
+                <h2 class="product-name" onclick="window.location.href='vega17.html'">Bolt Bunny Helmet (Black/Neon Yellow)</h2>
+                <div class="product-info">
+                    <div class="price-data" onclick="window.location.href='vega17.html'">
+                        <p class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </p>
+                        <h2 class="product-price">₹2197</h2>
+                    </div>
+                    <div class="add-to-cart" onclick="addToCart(this.parentElement.parentElement)">
+                        <i class="ri-heart-line"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://shop.studds.com/wp-content/uploads/2023/02/URBAN-BICYCLE-HELMET-BLACK_ISO.jpg" alt="" class="product-image" onclick="window.location.href='studs37.html'">
+                <p class="brand-name">STUDDS</p>
+                <h2 class="product-name" onclick="window.location.href='studs37.html'">DAME BICYCLE HELMET BLACK</h2>
+                <div class="product-info">
+                    <div class="price-data" onclick="window.location.href='studs37.html'">
+                        <p class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </p>
+                        <h2 class="product-price">₹975</h2>
+                    </div>
+                    <div class="add-to-cart" onclick="addToCart(this.parentElement.parentElement)">
+                        <i class="ri-heart-line"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://shop.studds.com/wp-content/uploads/2024/03/RAIDER-SUPER-BLACK-ISO.jpg" alt="" class="product-image" onclick="window.location.href='studs38.html'">
+                <p class="brand-name">STUDDS</p>
+                <h2 class="product-name" onclick="window.location.href='studs38.html'">RAIDER SUPER BLACK</h2>
+                <div class="product-info">
+                    <div class="price-data" onclick="window.location.href='studs38.html'">
+                        <p class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </p>
+                        <h2 class="product-price">₹1495</h2>
+                    </div>
+                    <div class="add-to-cart" onclick="addToCart(this.parentElement.parentElement)">
+                        <i class="ri-heart-line"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://shop.studds.com/wp-content/uploads/2023/02/MARSHALL-BLACK-01.jpg" alt="" class="product-image" onclick="window.location.href='studs39.html'">
+                <p class="brand-name">STUDDS</p>
+                <h2 class="product-name" onclick="window.location.href='studs39.html'">MARSHALL BLACK</h2>
+                <div class="product-info">
+                    <div class="price-data" onclick="window.location.href='studs39.html'">
+                        <p class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </p>
+                        <h2 class="product-price">₹1545</h2>
+                    </div>
+                    <div class="add-to-cart" onclick="addToCart(this.parentElement.parentElement)">
+                        <i class="ri-heart-line"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://vegaauto.com/wp-content/uploads/2024/07/Bunny-KO-2-1.png" alt="" class="product-image" onclick="window.location.href='vega18.html'">
+                <p class="brand-name">VEGA</p>
+                <h2 class="product-name" onclick="window.location.href='vega18.html'">Bolt Bunny Helmet (Black/Orange)</h2>
+                <div class="product-info">
+                    <div class="price-data" onclick="window.location.href='vega18.html'">
+                        <p class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </p>
+                        <h2 class="product-price">₹2197</h2>
+                    </div>
+                    <div class="add-to-cart" onclick="addToCart(this.parentElement.parentElement)">
+                        <i class="ri-heart-line"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://vegaauto.com/wp-content/uploads/2024/07/Bunny-Black-Neon-Blue-2-1.png" alt="" class="product-image" onclick="window.location.href='vega19.html'">
+                <p class="brand-name">VEGA</p>
+                <h2 class="product-name" onclick="window.location.href='vega19.html'">Bolt Bunny Helmet (Black/Neon Blue)</h2>
+                <div class="product-info">
+                    <div class="price-data" onclick="window.location.href='vega19.html'">
+                        <p class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </p>
+                        <h2 class="product-price">₹2197</h2>
+                    </div>
+                    <div class="add-to-cart" onclick="addToCart(this.parentElement.parentElement)">
+                        <i class="ri-heart-line"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://shop.studds.com/wp-content/uploads/2025/04/TROOPER-D4-BLACK-YELLOW-GREY-4.webp" alt="" class="product-image" onclick="window.location.href='studs47.html'">
+                <p class="brand-name">STUDDS</p>
+                <h2 class="product-name" onclick="window.location.href='studs47.html'">TROOPER D4 RACE N4 (Black/Yellow)</h2>
+                <div class="product-info">
+                    <div class="price-data" onclick="window.location.href='studs47.html'">
+                        <p class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </p>
+                        <h2 class="product-price">₹2190</h2>
+                    </div>
+                    <div class="add-to-cart" onclick="addToCart(this.parentElement.parentElement)">
+                        <i class="ri-heart-line"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://shop.studds.com/wp-content/uploads/2025/04/TROOPER-D4-BLACK-BLUE-3.webp" alt="" class="product-image" onclick="window.location.href='studs48.html'">
+                <p class="brand-name">STUDDS</p>
+                <h2 class="product-name" onclick="window.location.href='studs48.html'">TROOPER D4 RACE N1 (Black/Blue)</h2>
+                <div class="product-info">
+                    <div class="price-data" onclick="window.location.href='studs48.html'">
+                        <p class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </p>
+                        <h2 class="product-price">₹2190</h2>
+                    </div>
+                    <div class="add-to-cart" onclick="addToCart(this.parentElement.parentElement)">
+                        <i class="ri-heart-line"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://vegaauto.com/wp-content/uploads/2024/07/BLACK-NEON-YELLOW-2.png" alt="" class="product-image" onclick="window.location.href='vega20.html'">
+                <p class="brand-name">VEGA</p>
+                <h2 class="product-name" onclick="window.location.href='vega20.html'">Bolt Superhero Helmet (Black/Neon Yellow)</h2>
+                <div class="product-info">
+                    <div class="price-data" onclick="window.location.href='vega20.html'">
+                        <p class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </p>
+                        <h2 class="product-price">₹2197</h2>
+                    </div>
+                    <div class="add-to-cart" onclick="addToCart(this.parentElement.parentElement)">
+                        <i class="ri-heart-line"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://vegaauto.com/wp-content/uploads/2024/07/DULL-BLACK-GREY-2-1.png" alt="" class="product-image" onclick="window.location.href='vega21.html'">
+                <p class="brand-name">VEGA</p>
+                <h2 class="product-name" onclick="window.location.href='vega21.html'">Bolt Superhero Helmet (Dull Black/Grey)</h2>
+                <div class="product-info">
+                    <div class="price-data" onclick="window.location.href='vega21.html'">
+                        <p class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </p>
+                        <h2 class="product-price">₹2197</h2>
+                    </div>
+                    <div class="add-to-cart" onclick="addToCart(this.parentElement.parentElement)">
+                        <i class="ri-heart-line"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://vegaauto.com/wp-content/uploads/2024/07/DULL-BLACK-RED-2.png" alt="" class="product-image" onclick="window.location.href='vega22.html'">
+                <p class="brand-name">VEGA</p>
+                <h2 class="product-name" onclick="window.location.href='vega22.html'">Bolt Superhero Helmet (Dull Black/Red)</h2>
+                <div class="product-info">
+                    <div class="price-data" onclick="window.location.href='vega22.html'">
+                        <p class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </p>
+                        <h2 class="product-price">₹2197</h2>
+                    </div>
+                    <div class="add-to-cart" onclick="addToCart(this.parentElement.parentElement)">
+                        <i class="ri-heart-line"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://shop.studds.com/wp-content/uploads/2025/01/JET-BLACK-WITH-SHORT-VISOR-3.webp" alt="" class="product-image" onclick="window.location.href='studs40.html'">
+                <p class="brand-name">STUDDS</p>
+                <h2 class="product-name" onclick="window.location.href='studs40.html'">JET BLACK WITH SHORT VISOR</h2>
+                <div class="product-info">
+                    <div class="price-data" onclick="window.location.href='studs40.html'">
+                        <p class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </p>
+                        <h2 class="product-price">₹1095</h2>
+                    </div>
+                    <div class="add-to-cart" onclick="addToCart(this.parentElement.parentElement)">
+                        <i class="ri-heart-line"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://shop.studds.com/wp-content/uploads/2024/03/TROOPER-DV-D2-HELLCAT-DECOR-BLACK-YELLOW-3.jpg" alt="" class="product-image" onclick="window.location.href='studs41.html'">
+                <p class="brand-name">STUDDS</p>
+                <h2 class="product-name" onclick="window.location.href='studs41.html'">TROOPER DV D2 N5 (Black/Yellow)</h2>
+                <div class="product-info">
+                    <div class="price-data" onclick="window.location.href='studs41.html'">
+                        <p class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </p>
+                        <h2 class="product-price">₹2190</h2>
+                    </div>
+                    <div class="add-to-cart" onclick="addToCart(this.parentElement.parentElement)">
+                        <i class="ri-heart-line"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://shop.studds.com/wp-content/uploads/2024/03/TROOPER-DV-D2-HELLCAT-DECOR-BLACK-RED-3.jpg" alt="" class="product-image" onclick="window.location.href='studs42.html'">
+                <p class="brand-name">STUDDS</p>
+                <h2 class="product-name" onclick="window.location.href='studs42.html'">TROOPER DV D2 N2 (Black/Red)</h2>
+                <div class="product-info">
+                    <div class="price-data" onclick="window.location.href='studs42.html'">
+                        <p class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </p>
+                        <h2 class="product-price">₹2190</h2>
+                    </div>
+                    <div class="add-to-cart" onclick="addToCart(this.parentElement.parentElement)">
+                        <i class="ri-heart-line"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://shop.studds.com/wp-content/uploads/2024/03/TROOPER-D2-MATT-BLACK-BLUE-3.jpg" alt="" class="product-image" onclick="window.location.href='studs43.html'">
+                <p class="brand-name">STUDDS</p>
+                <h2 class="product-name" onclick="window.location.href='studs43.html'">TROOPER DV D2 N6 (Matt Black/Blue)</h2>
+                <div class="product-info">
+                    <div class="price-data" onclick="window.location.href='studs43.html'">
+                        <p class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </p>
+                        <h2 class="product-price">₹2190</h2>
+                    </div>
+                    <div class="add-to-cart" onclick="addToCart(this.parentElement.parentElement)">
+                        <i class="ri-heart-line"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://shop.studds.com/wp-content/uploads/2024/03/TROOPER-D2-MATT-BLACK-ORANGE-3.jpg" alt="" class="product-image" onclick="window.location.href='studs44.html'">
+                <p class="brand-name">STUDDS</p>
+                <h2 class="product-name" onclick="window.location.href='studs44.html'">TROOPER DV D2 N10 (Matt Black/Orange)</h2>
+                <div class="product-info">
+                    <div class="price-data" onclick="window.location.href='studs44.html'">
+                        <p class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </p>
+                        <h2 class="product-price">₹2190</h2>
+                    </div>
+                    <div class="add-to-cart" onclick="addToCart(this.parentElement.parentElement)">
+                        <i class="ri-heart-line"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://vegaauto.com/wp-content/uploads/2024/07/BLACK-GREY-2-1.png" alt="" class="product-image" onclick="window.location.href='vega23.html'">
+                <p class="brand-name">VEGA</p>
+                <h2 class="product-name" onclick="window.location.href='vega23.html'">Bolt Superhero Helmet (Black/Grey)</h2>
+                <div class="product-info">
+                    <div class="price-data" onclick="window.location.href='vega23.html'">
+                        <p class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </p>
+                        <h2 class="product-price">₹2197</h2>
+                    </div>
+                    <div class="add-to-cart" onclick="addToCart(this.parentElement.parentElement)">
+                        <i class="ri-heart-line"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://shop.studds.com/wp-content/uploads/2024/12/TROOPER-D3-VENTURA-BLACK-ORANGE-3.webp" alt="" class="product-image" onclick="window.location.href='studs45.html'">
+                <p class="brand-name">STUDDS</p>
+                <h2 class="product-name" onclick="window.location.href='studs45.html'">TROOPER D3 VENTURA N10 (Black/Orange)</h2>
+                <div class="product-info">
+                    <div class="price-data" onclick="window.location.href='studs45.html'">
+                        <p class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </p>
+                        <h2 class="product-price">₹2190</h2>
+                    </div>
+                    <div class="add-to-cart" onclick="addToCart(this.parentElement.parentElement)">
+                        <i class="ri-heart-line"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://shop.studds.com/wp-content/uploads/2024/12/TROOPER-D3-VENTURA-DECOR-BLACK-RED-3.webp" alt="" class="product-image" onclick="window.location.href='studs46.html'">
+                <p class="brand-name">STUDDS</p>
+                <h2 class="product-name" onclick="window.location.href='studs46.html'">TROOPER D3 VENTURA N2 (Black/Red)</h2>
+                <div class="product-info">
+                    <div class="price-data" onclick="window.location.href='studs46.html'">
+                        <p class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </p>
+                        <h2 class="product-price">₹2190</h2>
+                    </div>
+                    <div class="add-to-cart" onclick="addToCart(this.parentElement.parentElement)">
+                        <i class="ri-heart-line"></i>
+                    </div>
+                </div>
+            </div>
+    
+        </div>
+
+
+        <div class="cart-model" id="cart-model">
+            <div class="cart-head">
+                <h2>Your Wishlist</h2>
+                <button class="close-btn">X</button>
+            </div>
+    
+            <ul id="cart-items">
+    
+            </ul>
+    
+            <div class="cart-total">Total: ₹<span id="total-price">0</span></div>
+            <div class="checkout-btn" onclick="window.location.href='sunglasses.html'">Explore More&ensp;➡</div>
+        </div>
+
+        <footer>
+            <div class="footer_container">
+                <div class="sec">
+                    <h3>About Us</h3>
+                    <p>The Bike Boutique established in 2018, we sell Premium Quality Helmets & Bike Accessories. With over 10+ brands to choose from. Also highly budget friendly. Visit Store Today.</p>
+
+                    <ul class="sci">
+                        <li><a href="https://www.instagram.com/the_bike_boutique_/"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
+                        <!-- <li><a href=""><i class="fab fa-facebook" aria-hidden="true"></i></a></li>
+                        <li><a href=""><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
+                        <li><a href=""><i class="fab fa-youtube" aria-hidden="true"></i></a></li> -->
+                    </ul>
+                </div>
+
+                <div class="sec quicklinks">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="contact.html">Store Locator</a></li>
+                        <li><a href="https://g.co/kgs/v2WWNei">Visit Store</a></li>
+                        <li><a href="Wa.me/8420883801/">Help? Chat With Us!</a></li>
+                        <li><a href="https://merchant.razorpay.com/policy/QiBUPGzHZaLxZY/termshttps://merchant.razorpay.com/policy/QiBUPGzHZaLxZY/terms">Policies</a></li>
+                        <li><a href="privacy.html">Privacy Policy</a></li>
+                        <li><a href="terms.html">Terms & Conditions</a></li>
+                    </ul>
+                </div>
+
+                <div class="sec contact">
+                    <h3>Contact</h3>
+                    <ul class="info">
+                        <li>
+                            <span><i class="fa fa-map" aria-hidden="true"></i> &ensp; 22/A, 23, 1st Rd, Ajoy Nagar, Mukundapur, </br>Kolkata-700075 (WB), India</span> 
+                        </li>
+
+                        <li>
+                            <p> <span><i class="fa fa-phone" aria-hidden="true"></i></span> <a href="tel:8420883801">Call Us!</a></p>
+                        </li>
+
+                        <li>
+                            <p> <span><i class="fa fa-envelope" aria-hidden="true"></i></span> <a href="mailto:thebikeboutique2023@gmail.com">Email Us!</a></p>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+
+
+            <div class="copyright">
+                <p>Copyright 2025 The Bike Boutique. All Rights Reserved.</p>
+            </div>
+        </footer>
+        
+        <script src="scripts.js"></script>
+        <script src="script.js"></script>
+    </body>
+
+</html>

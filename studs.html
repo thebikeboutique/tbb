@@ -1,0 +1,1334 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>The Bike Boutique</title>
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0" />
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
+        <link rel="icon" href="imgs/favicon.png" type="image/png">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="stylo.css"> 
+    </head>
+
+    <body>
+
+        <header class="header" id="header">
+         <nav class="nav container">
+            <a href="index.html" class="nav__logo"><img src="imgs/logo.png"></a>
+
+            <div class="nav__menu" id="nav-menu">
+               <ul class="nav__list">
+                  <li class="nav__item">
+                     <a href="helmets.html" class="nav__link">Helmets</a>
+                  </li>
+
+                  <li class="nav__item">
+                     <a href="accessories.html" class="nav__link">Accessories</a>
+                  </li>
+
+                  <li class="nav__item">
+                     <a href="contacts.html" class="nav__link">Store Locator</a>
+                  </li>
+               </ul>
+
+               <!-- Close button -->
+               <div class="nav__close" id="nav-close">
+                  <i class="ri-close-line"></i>
+               </div>
+            </div>
+
+            <div class="nav__actions">
+               <!-- Search button -->
+               <!-- <i class="ri-search-line nav__search" id="search-btn" onclick="window.location.href='search.html'"></i> -->
+
+                <div class="cart-icon nav__login" id="cart-icon login-btn">
+                    <i class="ri-heart-line"></i>
+                    <span id="cart-count">0</span>
+                </div>
+
+               <!-- Login button -->
+               <!--<i class="ri-user-line nav__login" id="login-btn"></i>-->
+
+               <!-- Toggle button -->
+               <div class="nav__toggle" id="nav-toggle">
+                  <i class="ri-menu-line"></i>
+               </div>
+            </div>
+         </nav>
+        </header>
+
+        <section id="body2">
+            <section1 class="main-contain">
+                <div class="tab-nav-bar">
+                    <div class="tab-navigation">
+                        <ul class="tab-menu">
+                            <a href="index.html"><li class="tab-btn">All</li></a>
+                            <a href="helmets.html"><li class="tab-btn active">Helmets</li></a>
+                            <a href="accessories.html"><li class="tab-btn">Accessories</li></a>
+                            <a href="budgetfriendly.html"><li class="tab-btn">Budget Friendly</li></a>
+                            <a href="spares.html"><li class="tab-btn">Spares</li></a>
+                        </ul>
+                    </div>
+                </div>
+            </section1>
+        </section> 
+
+        <section id="header2">
+            <div>
+                <ul id="navbar2">
+                    <li><a href="index.html"> <span>Online</span></a></li>
+                    <li><a href="contact.html"> <span>Store</span></a></li>
+                    <li><a href="https://wa.me/8420883801"> <span>Chat</span></a></li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="ad-banner">
+            <div class="ad-text">
+                <p>Upto <strong>12% OFF</strong> on Online Purchases. <strong>SHOP NOW!</strong></p>
+            </div>
+        </section>
+
+
+
+        <div class="sbb-head">
+            <h2>STUDDS</h2>
+            <p>All Latest Collections bundled in one place.</p>
+        </div>
+
+        <div class="products container">
+    
+            <div class="product-card">
+                <img src="https://shop.studds.com/wp-content/uploads/2025/03/HELIOS-BLACK-3.webp" alt="" class="product-image" onclick="window.location.href='studs1.html'">
+                <p class="brand-name">STUDDS</p>
+                <h2 class="product-name" onclick="window.location.href='studs1.html'">HELIOS (Black)</h2>
+                <div class="product-info">
+                    <div class="price-data" onclick="window.location.href='studs1.html'">
+                        <p class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </p>
+                        <h2 class="product-price">₹3400</h2>
+                    </div>
+                    <div class="add-to-cart" onclick="addToCart(this.parentElement.parentElement)">
+                        <i class="ri-heart-line"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://shop.studds.com/wp-content/uploads/2025/03/HELIOS-D1-BLACK-RED-3.webp" alt="" class="product-image" onclick="window.location.href='studs2.html'">
+                <p class="brand-name">STUDDS</p>
+                <h2 class="product-name" onclick="window.location.href='studs2.html'">HELIOS D1 ASPHALT N2 (Black/Red)</h2>
+                <div class="product-info">
+                    <div class="price-data" onclick="window.location.href='studs2.html'">
+                        <p class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </p>
+                        <h2 class="product-price">₹3600</h2>
+                    </div>
+                    <div class="add-to-cart" onclick="addToCart(this.parentElement.parentElement)">
+                        <i class="ri-heart-line"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://shop.studds.com/wp-content/uploads/2025/03/HELIOS-D1-BLACK-GREEN-3.webp" alt="" class="product-image" onclick="window.location.href='studs3.html'">
+                <p class="brand-name">STUDDS</p>
+                <h2 class="product-name" onclick="window.location.href='studs3.html'">HELIOS D1 ASPHALT N3 (Black/Green)</h2>
+                <div class="product-info">
+                    <div class="price-data" onclick="window.location.href='studs3.html'">
+                        <p class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </p>
+                        <h2 class="product-price">₹3600</h2>
+                    </div>
+                    <div class="add-to-cart" onclick="addToCart(this.parentElement.parentElement)">
+                        <i class="ri-heart-line"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://shop.studds.com/wp-content/uploads/2025/03/HELIOS-D1-BLACK-YELLOW-3.webp" alt="" class="product-image" onclick="window.location.href='studs4.html'">
+                <p class="brand-name">STUDDS</p>
+                <h2 class="product-name" onclick="window.location.href='studs4.html'">HELIOS D1 ASPHALT N5 (Black/Yellow)</h2>
+                <div class="product-info">
+                    <div class="price-data" onclick="window.location.href='studs4.html'">
+                        <p class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </p>
+                        <h2 class="product-price">₹3600</h2>
+                    </div>
+                    <div class="add-to-cart" onclick="addToCart(this.parentElement.parentElement)">
+                        <i class="ri-heart-line"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://shop.studds.com/wp-content/uploads/2025/03/HELIOS-D1-WHITE-BLUE-3.webp" alt="" class="product-image" onclick="window.location.href='studs5.html'">
+                <p class="brand-name">STUDDS</p>
+                <h2 class="product-name" onclick="window.location.href='studs5.html'">HELIOS D1 ASPHALT N1 (White/Blue)</h2>
+                <div class="product-info">
+                    <div class="price-data" onclick="window.location.href='studs5.html'">
+                        <p class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </p>
+                        <h2 class="product-price">₹3600</h2>
+                    </div>
+                    <div class="add-to-cart" onclick="addToCart(this.parentElement.parentElement)">
+                        <i class="ri-heart-line"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://shop.studds.com/wp-content/uploads/2025/03/HELIOS-D1-MATT-BLACK-GREEN-2.webp" alt="" class="product-image" onclick="window.location.href='studs6.html'">
+                <p class="brand-name">STUDDS</p>
+                <h2 class="product-name" onclick="window.location.href='studs6.html'">HELIOS D1 ASPHALT N3 (Matt Black/Green)</h2>
+                <div class="product-info">
+                    <div class="price-data" onclick="window.location.href='studs6.html'">
+                        <p class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </p>
+                        <h2 class="product-price">₹3600</h2>
+                    </div>
+                    <div class="add-to-cart" onclick="addToCart(this.parentElement.parentElement)">
+                        <i class="ri-heart-line"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://shop.studds.com/wp-content/uploads/2025/03/HELIOS-D1-MATT-BLACK-GREY-2.webp" alt="" class="product-image" onclick="window.location.href='studs7.html'">
+                <p class="brand-name">STUDDS</p>
+                <h2 class="product-name" onclick="window.location.href='studs7.html'">HELIOS D1 ASPHALT N4 (Matt Black/White)</h2>
+                <div class="product-info">
+                    <div class="price-data" onclick="window.location.href='studs7.html'">
+                        <p class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </p>
+                        <h2 class="product-price">₹3600</h2>
+                    </div>
+                    <div class="add-to-cart" onclick="addToCart(this.parentElement.parentElement)">
+                        <i class="ri-heart-line"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://shop.studds.com/wp-content/uploads/2025/01/VOGUE-LAVENDER-PINK-3.webp" alt="" class="product-image" onclick="window.location.href='studs8.html'">
+                <p class="brand-name">STUDDS</p>
+                <h2 class="product-name" onclick="window.location.href='studs8.html'">VOGUE LAVENDER PINK</h2>
+                <div class="product-info">
+                    <div class="price-data" onclick="window.location.href='studs8.html'">
+                        <p class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </p>
+                        <h2 class="product-price">₹1075</h2>
+                    </div>
+                    <div class="add-to-cart" onclick="addToCart(this.parentElement.parentElement)">
+                        <i class="ri-heart-line"></i>
+                    </div>
+                </div>
+            </div>
+
+            <!-- <div class="product-card">
+                <img src="" alt="" class="product-image" onclick="window.location.href='studs9.html'">
+                <p class="brand-name">STUDDS</p>
+                <h2 class="product-name" onclick="window.location.href='studs9.html'">VOGUE VIOLET</h2>
+                <div class="product-info">
+                    <div class="price-data" onclick="window.location.href='studs9.html'">
+                        <p class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </p>
+                        <h2 class="product-price">₹1075</h2>
+                    </div>
+                    <div class="add-to-cart" onclick="addToCart(this.parentElement.parentElement)">
+                        <i class="ri-heart-line"></i>
+                    </div>
+                </div>
+            </div> -->
+
+            <div class="product-card">
+                <img src="https://shop.studds.com/wp-content/uploads/2023/04/VOGUE-VIBRANT-ORANGE-ISO.jpg" alt="" class="product-image" onclick="window.location.href='studs10.html'">
+                <p class="brand-name">STUDDS</p>
+                <h2 class="product-name" onclick="window.location.href='studs10.html'">VOGUE VIBRANT ORANGE</h2>
+                <div class="product-info">
+                    <div class="price-data" onclick="window.location.href='studs10.html'">
+                        <p class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </p>
+                        <h2 class="product-price">₹1075</h2>
+                    </div>
+                    <div class="add-to-cart" onclick="addToCart(this.parentElement.parentElement)">
+                        <i class="ri-heart-line"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://shop.studds.com/wp-content/uploads/2023/04/Vouge-mustard_iso.jpg" alt="" class="product-image" onclick="window.location.href='studs11.html'">
+                <p class="brand-name">STUDDS</p>
+                <h2 class="product-name" onclick="window.location.href='studs11.html'">VOGUE MUSTARD</h2>
+                <div class="product-info">
+                    <div class="price-data" onclick="window.location.href='studs11.html'">
+                        <p class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </p>
+                        <h2 class="product-price">₹1075</h2>
+                    </div>
+                    <div class="add-to-cart" onclick="addToCart(this.parentElement.parentElement)">
+                        <i class="ri-heart-line"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://shop.studds.com/wp-content/uploads/2023/04/VOUGE-BLACK-MATT_ISO.jpg" alt="" class="product-image" onclick="window.location.href='studs12.html'">
+                <p class="brand-name">STUDDS</p>
+                <h2 class="product-name" onclick="window.location.href='studs12.html'">VOGUE MATT BLACK</h2>
+                <div class="product-info">
+                    <div class="price-data" onclick="window.location.href='studs12.html'">
+                        <p class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </p>
+                        <h2 class="product-price">₹1075</h2>
+                    </div>
+                    <div class="add-to-cart" onclick="addToCart(this.parentElement.parentElement)">
+                        <i class="ri-heart-line"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://shop.studds.com/wp-content/uploads/2023/04/VOGUE-PASTEL-GREEN_ISO.jpg" alt="" class="product-image" onclick="window.location.href='studs13.html'">
+                <p class="brand-name">STUDDS</p>
+                <h2 class="product-name" onclick="window.location.href='studs13.html'">VOGUE PASTEL GREEN</h2>
+                <div class="product-info">
+                    <div class="price-data" onclick="window.location.href='studs13.html'">
+                        <p class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </p>
+                        <h2 class="product-price">₹1075</h2>
+                    </div>
+                    <div class="add-to-cart" onclick="addToCart(this.parentElement.parentElement)">
+                        <i class="ri-heart-line"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://shop.studds.com/wp-content/uploads/2024/01/VOGUE-MILITARY-GREEN-ISO1.jpg" alt="" class="product-image" onclick="window.location.href='studs14.html'">
+                <p class="brand-name">STUDDS</p>
+                <h2 class="product-name" onclick="window.location.href='studs14.html'">VOGUE MILITARY GREEN</h2>
+                <div class="product-info">
+                    <div class="price-data" onclick="window.location.href='studs14.html'">
+                        <p class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </p>
+                        <h2 class="product-price">₹1075</h2>
+                    </div>
+                    <div class="add-to-cart" onclick="addToCart(this.parentElement.parentElement)">
+                        <i class="ri-heart-line"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://shop.studds.com/wp-content/uploads/2023/04/VOGUE-DAPPER-BLUE_ISO.jpg" alt="" class="product-image" onclick="window.location.href='studs15.html'">
+                <p class="brand-name">STUDDS</p>
+                <h2 class="product-name" onclick="window.location.href='studs15.html'">VOGUE DAPPER BLUE</h2>
+                <div class="product-info">
+                    <div class="price-data" onclick="window.location.href='studs15.html'">
+                        <p class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </p>
+                        <h2 class="product-price">₹1075</h2>
+                    </div>
+                    <div class="add-to-cart" onclick="addToCart(this.parentElement.parentElement)">
+                        <i class="ri-heart-line"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://shop.studds.com/wp-content/uploads/2023/04/VOUGE-INDIGO-BLUE_ISO.jpg" alt="" class="product-image" onclick="window.location.href='studs16.html'">
+                <p class="brand-name">STUDDS</p>
+                <h2 class="product-name" onclick="window.location.href='studs16.html'">VOGUE INDIGO</h2>
+                <div class="product-info">
+                    <div class="price-data" onclick="window.location.href='studs16.html'">
+                        <p class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </p>
+                        <h2 class="product-price">₹1075</h2>
+                    </div>
+                    <div class="add-to-cart" onclick="addToCart(this.parentElement.parentElement)">
+                        <i class="ri-heart-line"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://shop.studds.com/wp-content/uploads/2023/04/VOUGE-CHERRY-RED_ISO.jpg" alt="" class="product-image" onclick="window.location.href='studs17.html'">
+                <p class="brand-name">STUDDS</p>
+                <h2 class="product-name" onclick="window.location.href='studs17.html'">VOGUE CHERRY RED</h2>
+                <div class="product-info">
+                    <div class="price-data" onclick="window.location.href='studs17.html'">
+                        <p class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </p>
+                        <h2 class="product-price">₹1075</h2>
+                    </div>
+                    <div class="add-to-cart" onclick="addToCart(this.parentElement.parentElement)">
+                        <i class="ri-heart-line"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://shop.studds.com/wp-content/uploads/2023/04/VOUGE-GREEN_01.jpg" alt="" class="product-image" onclick="window.location.href='studs18.html'">
+                <p class="brand-name">STUDDS</p>
+                <h2 class="product-name" onclick="window.location.href='studs18.html'">VOGUE PARROT GREEN</h2>
+                <div class="product-info">
+                    <div class="price-data" onclick="window.location.href='studs18.html'">
+                        <p class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </p>
+                        <h2 class="product-price">₹1075</h2>
+                    </div>
+                    <div class="add-to-cart" onclick="addToCart(this.parentElement.parentElement)">
+                        <i class="ri-heart-line"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://shop.studds.com/wp-content/uploads/2022/06/RAY-BLACK.jpg" alt="" class="product-image" onclick="window.location.href='studs19.html'">
+                <p class="brand-name">STUDDS</p>
+                <h2 class="product-name" onclick="window.location.href='studs19.html'">RAY BLACK</h2>
+                <div class="product-info">
+                    <div class="price-data" onclick="window.location.href='studs19.html'">
+                        <p class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </p>
+                        <h2 class="product-price">₹1020</h2>
+                    </div>
+                    <div class="add-to-cart" onclick="addToCart(this.parentElement.parentElement)">
+                        <i class="ri-heart-line"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://shop.studds.com/wp-content/uploads/2023/02/RAY-SUPER-VIBRANT-ORAGNE_01-1.jpg" alt="" class="product-image" onclick="window.location.href='studs20.html'">
+                <p class="brand-name">STUDDS</p>
+                <h2 class="product-name" onclick="window.location.href='studs20.html'">RAY SUPER VIBRANT ORANGE</h2>
+                <div class="product-info">
+                    <div class="price-data" onclick="window.location.href='studs20.html'">
+                        <p class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </p>
+                        <h2 class="product-price">₹1050</h2>
+                    </div>
+                    <div class="add-to-cart" onclick="addToCart(this.parentElement.parentElement)">
+                        <i class="ri-heart-line"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://shop.studds.com/wp-content/uploads/2023/02/RAY-SUPER-PASTEL-GREEN_01-1.jpg" alt="" class="product-image" onclick="window.location.href='studs21.html'">
+                <p class="brand-name">STUDDS</p>
+                <h2 class="product-name" onclick="window.location.href='studs21.html'">RAY SUPER PASTEL GREEN</h2>
+                <div class="product-info">
+                    <div class="price-data" onclick="window.location.href='studs21.html'">
+                        <p class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </p>
+                        <h2 class="product-price">₹1050</h2>
+                    </div>
+                    <div class="add-to-cart" onclick="addToCart(this.parentElement.parentElement)">
+                        <i class="ri-heart-line"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://shop.studds.com/wp-content/uploads/2023/02/Ray-Super-Baby-pink_01-1.jpg" alt="" class="product-image" onclick="window.location.href='studs22.html'">
+                <p class="brand-name">STUDDS</p>
+                <h2 class="product-name" onclick="window.location.href='studs22.html'">RAY SUPER BABY PINK</h2>
+                <div class="product-info">
+                    <div class="price-data" onclick="window.location.href='studs22.html'">
+                        <p class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </p>
+                        <h2 class="product-price">₹1050</h2>
+                    </div>
+                    <div class="add-to-cart" onclick="addToCart(this.parentElement.parentElement)">
+                        <i class="ri-heart-line"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://shop.studds.com/wp-content/uploads/2023/02/LEFT-11.jpg" alt="" class="product-image" onclick="window.location.href='studs23.html'">
+                <p class="brand-name">STUDDS</p>
+                <h2 class="product-name" onclick="window.location.href='studs23.html'">RAY SUPER DARK PINK</h2>
+                <div class="product-info">
+                    <div class="price-data" onclick="window.location.href='studs23.html'">
+                        <p class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </p>
+                        <h2 class="product-price">₹1050</h2>
+                    </div>
+                    <div class="add-to-cart" onclick="addToCart(this.parentElement.parentElement)">
+                        <i class="ri-heart-line"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://shop.studds.com/wp-content/uploads/2023/02/Ray-Super-Black-02-1.jpg" alt="" class="product-image" onclick="window.location.href='studs24.html'">
+                <p class="brand-name">STUDDS</p>
+                <h2 class="product-name" onclick="window.location.href='studs24.html'">RAY SUPER BLACK</h2>
+                <div class="product-info">
+                    <div class="price-data" onclick="window.location.href='studs24.html'">
+                        <p class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </p>
+                        <h2 class="product-price">₹1050</h2>
+                    </div>
+                    <div class="add-to-cart" onclick="addToCart(this.parentElement.parentElement)">
+                        <i class="ri-heart-line"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://shop.studds.com/wp-content/uploads/2022/06/RAY-MILTARY-GREEN_05-1.jpg" alt="" class="product-image" onclick="window.location.href='studs25.html'">
+                <p class="brand-name">STUDDS</p>
+                <h2 class="product-name" onclick="window.location.href='studs25.html'">RAY SUPER MILITARY GREEN</h2>
+                <div class="product-info">
+                    <div class="price-data" onclick="window.location.href='studs25.html'">
+                        <p class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </p>
+                        <h2 class="product-price">₹1050</h2>
+                    </div>
+                    <div class="add-to-cart" onclick="addToCart(this.parentElement.parentElement)">
+                        <i class="ri-heart-line"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://shop.studds.com/wp-content/uploads/2023/02/RAY-SUPER-DAPPER-BLUE_01-1.jpg" alt="" class="product-image" onclick="window.location.href='studs26.html'">
+                <p class="brand-name">STUDDS</p>
+                <h2 class="product-name" onclick="window.location.href='studs26.html'">RAY SUPER DAPPER BLUE</h2>
+                <div class="product-info">
+                    <div class="price-data" onclick="window.location.href='studs26.html'">
+                        <p class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </p>
+                        <h2 class="product-price">₹1050</h2>
+                    </div>
+                    <div class="add-to-cart" onclick="addToCart(this.parentElement.parentElement)">
+                        <i class="ri-heart-line"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://shop.studds.com/wp-content/uploads/2022/06/RAY-MILTARY-GREEN_05-1.jpg" alt="" class="product-image" onclick="window.location.href='studs27.html'">
+                <p class="brand-name">STUDDS</p>
+                <h2 class="product-name" onclick="window.location.href='studs27.html'">RAY MILITARY GREEN</h2>
+                <div class="product-info">
+                    <div class="price-data" onclick="window.location.href='studs27.html'">
+                        <p class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </p>
+                        <h2 class="product-price">₹1020</h2>
+                    </div>
+                    <div class="add-to-cart" onclick="addToCart(this.parentElement.parentElement)">
+                        <i class="ri-heart-line"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://shop.studds.com/wp-content/uploads/2022/06/RAY-PINK.jpg" alt="" class="product-image" onclick="window.location.href='studs28.html'">
+                <p class="brand-name">STUDDS</p>
+                <h2 class="product-name" onclick="window.location.href='studs28.html'">RAY PINK</h2>
+                <div class="product-info">
+                    <div class="price-data" onclick="window.location.href='studs28.html'">
+                        <p class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </p>
+                        <h2 class="product-price">₹1020</h2>
+                    </div>
+                    <div class="add-to-cart" onclick="addToCart(this.parentElement.parentElement)">
+                        <i class="ri-heart-line"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://shop.studds.com/wp-content/uploads/2022/06/RAY-RED.jpg" alt="" class="product-image" onclick="window.location.href='studs29.html'">
+                <p class="brand-name">STUDDS</p>
+                <h2 class="product-name" onclick="window.location.href='studs29.html'">RAY RED</h2>
+                <div class="product-info">
+                    <div class="price-data" onclick="window.location.href='studs29.html'">
+                        <p class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </p>
+                        <h2 class="product-price">₹1020</h2>
+                    </div>
+                    <div class="add-to-cart" onclick="addToCart(this.parentElement.parentElement)">
+                        <i class="ri-heart-line"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://shop.studds.com/wp-content/uploads/2022/06/RAY-BLUE.jpg" alt="" class="product-image" onclick="window.location.href='studs30.html'">
+                <p class="brand-name">STUDDS</p>
+                <h2 class="product-name" onclick="window.location.href='studs30.html'">RAY BLUE</h2>
+                <div class="product-info">
+                    <div class="price-data" onclick="window.location.href='studs30.html'">
+                        <p class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </p>
+                        <h2 class="product-price">₹1020</h2>
+                    </div>
+                    <div class="add-to-cart" onclick="addToCart(this.parentElement.parentElement)">
+                        <i class="ri-heart-line"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://shop.studds.com/wp-content/uploads/2022/06/RAY-WHITE.jpg" alt="" class="product-image" onclick="window.location.href='studs31.html'">
+                <p class="brand-name">STUDDS</p>
+                <h2 class="product-name" onclick="window.location.href='studs31.html'">RAY WHITE</h2>
+                <div class="product-info">
+                    <div class="price-data" onclick="window.location.href='studs31.html'">
+                        <p class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </p>
+                        <h2 class="product-price">₹1020</h2>
+                    </div>
+                    <div class="add-to-cart" onclick="addToCart(this.parentElement.parentElement)">
+                        <i class="ri-heart-line"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://shop.studds.com/wp-content/uploads/2023/02/URBAN-BICYLE-HELMET-MATT-BLACK_ISO.jpg" alt="" class="product-image" onclick="window.location.href='studs32.html'">
+                <p class="brand-name">STUDDS</p>
+                <h2 class="product-name" onclick="window.location.href='studs32.html'">DAME BICYCLE HELMET MATT BLACK</h2>
+                <div class="product-info">
+                    <div class="price-data" onclick="window.location.href='studs32.html'">
+                        <p class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </p>
+                        <h2 class="product-price">₹975</h2>
+                    </div>
+                    <div class="add-to-cart" onclick="addToCart(this.parentElement.parentElement)">
+                        <i class="ri-heart-line"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://shop.studds.com/wp-content/uploads/2023/02/URBAN-DAME-MATT-BLUE_01.jpg" alt="" class="product-image" onclick="window.location.href='studs33.html'">
+                <p class="brand-name">STUDDS</p>
+                <h2 class="product-name" onclick="window.location.href='studs33.html'">DAME BICYCLE HELMET MATT BLUE</h2>
+                <div class="product-info">
+                    <div class="price-data" onclick="window.location.href='studs33.html'">
+                        <p class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </p>
+                        <h2 class="product-price">₹975</h2>
+                    </div>
+                    <div class="add-to-cart" onclick="addToCart(this.parentElement.parentElement)">
+                        <i class="ri-heart-line"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://shop.studds.com/wp-content/uploads/2023/02/DAME-MATT-GUN-GREY_05.jpg" alt="" class="product-image" onclick="window.location.href='studs34.html'">
+                <p class="brand-name">STUDDS</p>
+                <h2 class="product-name" onclick="window.location.href='studs34.html'">DAME BICYCLE HELMET MATT GUN GREY</h2>
+                <div class="product-info">
+                    <div class="price-data" onclick="window.location.href='studs34.html'">
+                        <p class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </p>
+                        <h2 class="product-price">₹975</h2>
+                    </div>
+                    <div class="add-to-cart" onclick="addToCart(this.parentElement.parentElement)">
+                        <i class="ri-heart-line"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="imgs/helmets/studs/1studs35.jpeg" alt="" class="product-image" onclick="window.location.href='studs35.html'">
+                <p class="brand-name">STUDDS</p>
+                <h2 class="product-name" onclick="window.location.href='studs35.html'">DAME BICYCLE HELMET MATT SPORTS RED</h2>
+                <div class="product-info">
+                    <div class="price-data" onclick="window.location.href='studs35.html'">
+                        <p class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </p>
+                        <h2 class="product-price">₹975</h2>
+                    </div>
+                    <div class="add-to-cart" onclick="addToCart(this.parentElement.parentElement)">
+                        <i class="ri-heart-line"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://shop.studds.com/wp-content/uploads/2023/02/DAME-CHERRY-RED_02.jpg" alt="" class="product-image" onclick="window.location.href='studs36.html'">
+                <p class="brand-name">STUDDS</p>
+                <h2 class="product-name" onclick="window.location.href='studs36.html'">DAME BICYCLE HELMET CHERRY RED</h2>
+                <div class="product-info">
+                    <div class="price-data" onclick="window.location.href='studs36.html'">
+                        <p class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </p>
+                        <h2 class="product-price">₹975</h2>
+                    </div>
+                    <div class="add-to-cart" onclick="addToCart(this.parentElement.parentElement)">
+                        <i class="ri-heart-line"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://shop.studds.com/wp-content/uploads/2023/02/URBAN-BICYCLE-HELMET-BLACK_ISO.jpg" alt="" class="product-image" onclick="window.location.href='studs37.html'">
+                <p class="brand-name">STUDDS</p>
+                <h2 class="product-name" onclick="window.location.href='studs37.html'">DAME BICYCLE HELMET BLACK</h2>
+                <div class="product-info">
+                    <div class="price-data" onclick="window.location.href='studs37.html'">
+                        <p class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </p>
+                        <h2 class="product-price">₹975</h2>
+                    </div>
+                    <div class="add-to-cart" onclick="addToCart(this.parentElement.parentElement)">
+                        <i class="ri-heart-line"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://shop.studds.com/wp-content/uploads/2024/03/RAIDER-SUPER-BLACK-ISO.jpg" alt="" class="product-image" onclick="window.location.href='studs38.html'">
+                <p class="brand-name">STUDDS</p>
+                <h2 class="product-name" onclick="window.location.href='studs38.html'">RAIDER SUPER BLACK</h2>
+                <div class="product-info">
+                    <div class="price-data" onclick="window.location.href='studs38.html'">
+                        <p class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </p>
+                        <h2 class="product-price">₹1495</h2>
+                    </div>
+                    <div class="add-to-cart" onclick="addToCart(this.parentElement.parentElement)">
+                        <i class="ri-heart-line"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://shop.studds.com/wp-content/uploads/2023/02/MARSHALL-BLACK-01.jpg" alt="" class="product-image" onclick="window.location.href='studs39.html'">
+                <p class="brand-name">STUDDS</p>
+                <h2 class="product-name" onclick="window.location.href='studs39.html'">MARSHALL BLACK</h2>
+                <div class="product-info">
+                    <div class="price-data" onclick="window.location.href='studs39.html'">
+                        <p class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </p>
+                        <h2 class="product-price">₹1545</h2>
+                    </div>
+                    <div class="add-to-cart" onclick="addToCart(this.parentElement.parentElement)">
+                        <i class="ri-heart-line"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://shop.studds.com/wp-content/uploads/2025/01/JET-BLACK-WITH-SHORT-VISOR-3.webp" alt="" class="product-image" onclick="window.location.href='studs40.html'">
+                <p class="brand-name">STUDDS</p>
+                <h2 class="product-name" onclick="window.location.href='studs40.html'">JET BLACK WITH SHORT VISOR</h2>
+                <div class="product-info">
+                    <div class="price-data" onclick="window.location.href='studs40.html'">
+                        <p class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </p>
+                        <h2 class="product-price">₹1095</h2>
+                    </div>
+                    <div class="add-to-cart" onclick="addToCart(this.parentElement.parentElement)">
+                        <i class="ri-heart-line"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://shop.studds.com/wp-content/uploads/2024/03/TROOPER-DV-D2-HELLCAT-DECOR-BLACK-YELLOW-3.jpg" alt="" class="product-image" onclick="window.location.href='studs41.html'">
+                <p class="brand-name">STUDDS</p>
+                <h2 class="product-name" onclick="window.location.href='studs41.html'">TROOPER DV D2 N5 (Black/Yellow)</h2>
+                <div class="product-info">
+                    <div class="price-data" onclick="window.location.href='studs41.html'">
+                        <p class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </p>
+                        <h2 class="product-price">₹2190</h2>
+                    </div>
+                    <div class="add-to-cart" onclick="addToCart(this.parentElement.parentElement)">
+                        <i class="ri-heart-line"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://shop.studds.com/wp-content/uploads/2024/03/TROOPER-DV-D2-HELLCAT-DECOR-BLACK-RED-3.jpg" alt="" class="product-image" onclick="window.location.href='studs42.html'">
+                <p class="brand-name">STUDDS</p>
+                <h2 class="product-name" onclick="window.location.href='studs42.html'">TROOPER DV D2 N2 (Black/Red)</h2>
+                <div class="product-info">
+                    <div class="price-data" onclick="window.location.href='studs42.html'">
+                        <p class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </p>
+                        <h2 class="product-price">₹2190</h2>
+                    </div>
+                    <div class="add-to-cart" onclick="addToCart(this.parentElement.parentElement)">
+                        <i class="ri-heart-line"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://shop.studds.com/wp-content/uploads/2024/03/TROOPER-D2-MATT-BLACK-BLUE-3.jpg" alt="" class="product-image" onclick="window.location.href='studs43.html'">
+                <p class="brand-name">STUDDS</p>
+                <h2 class="product-name" onclick="window.location.href='studs43.html'">TROOPER DV D2 N6 (Matt Black/Blue)</h2>
+                <div class="product-info">
+                    <div class="price-data" onclick="window.location.href='studs43.html'">
+                        <p class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </p>
+                        <h2 class="product-price">₹2190</h2>
+                    </div>
+                    <div class="add-to-cart" onclick="addToCart(this.parentElement.parentElement)">
+                        <i class="ri-heart-line"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://shop.studds.com/wp-content/uploads/2024/03/TROOPER-D2-MATT-BLACK-ORANGE-3.jpg" alt="" class="product-image" onclick="window.location.href='studs44.html'">
+                <p class="brand-name">STUDDS</p>
+                <h2 class="product-name" onclick="window.location.href='studs44.html'">TROOPER DV D2 N10 (Matt Black/Orange)</h2>
+                <div class="product-info">
+                    <div class="price-data" onclick="window.location.href='studs44.html'">
+                        <p class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </p>
+                        <h2 class="product-price">₹2190</h2>
+                    </div>
+                    <div class="add-to-cart" onclick="addToCart(this.parentElement.parentElement)">
+                        <i class="ri-heart-line"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://shop.studds.com/wp-content/uploads/2024/12/TROOPER-D3-VENTURA-BLACK-ORANGE-3.webp" alt="" class="product-image" onclick="window.location.href='studs45.html'">
+                <p class="brand-name">STUDDS</p>
+                <h2 class="product-name" onclick="window.location.href='studs45.html'">TROOPER D3 VENTURA N10 (Black/Orange)</h2>
+                <div class="product-info">
+                    <div class="price-data" onclick="window.location.href='studs45.html'">
+                        <p class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </p>
+                        <h2 class="product-price">₹2190</h2>
+                    </div>
+                    <div class="add-to-cart" onclick="addToCart(this.parentElement.parentElement)">
+                        <i class="ri-heart-line"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://shop.studds.com/wp-content/uploads/2024/12/TROOPER-D3-VENTURA-DECOR-BLACK-RED-3.webp" alt="" class="product-image" onclick="window.location.href='studs46.html'">
+                <p class="brand-name">STUDDS</p>
+                <h2 class="product-name" onclick="window.location.href='studs46.html'">TROOPER D3 VENTURA N2 (Black/Red)</h2>
+                <div class="product-info">
+                    <div class="price-data" onclick="window.location.href='studs46.html'">
+                        <p class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </p>
+                        <h2 class="product-price">₹2190</h2>
+                    </div>
+                    <div class="add-to-cart" onclick="addToCart(this.parentElement.parentElement)">
+                        <i class="ri-heart-line"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://shop.studds.com/wp-content/uploads/2025/04/TROOPER-D4-BLACK-YELLOW-GREY-4.webp" alt="" class="product-image" onclick="window.location.href='studs47.html'">
+                <p class="brand-name">STUDDS</p>
+                <h2 class="product-name" onclick="window.location.href='studs47.html'">TROOPER D4 RACE N4 (Black/Yellow)</h2>
+                <div class="product-info">
+                    <div class="price-data" onclick="window.location.href='studs47.html'">
+                        <p class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </p>
+                        <h2 class="product-price">₹2190</h2>
+                    </div>
+                    <div class="add-to-cart" onclick="addToCart(this.parentElement.parentElement)">
+                        <i class="ri-heart-line"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://shop.studds.com/wp-content/uploads/2025/04/TROOPER-D4-BLACK-BLUE-3.webp" alt="" class="product-image" onclick="window.location.href='studs48.html'">
+                <p class="brand-name">STUDDS</p>
+                <h2 class="product-name" onclick="window.location.href='studs48.html'">TROOPER D4 RACE N1 (Black/Blue)</h2>
+                <div class="product-info">
+                    <div class="price-data" onclick="window.location.href='studs48.html'">
+                        <p class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </p>
+                        <h2 class="product-price">₹2190</h2>
+                    </div>
+                    <div class="add-to-cart" onclick="addToCart(this.parentElement.parentElement)">
+                        <i class="ri-heart-line"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://shop.studds.com/wp-content/uploads/2025/04/TROOPER-D4-MATT-BLACK-RED-BLUE-3.webp" alt="" class="product-image" onclick="window.location.href='studs49.html'">
+                <p class="brand-name">STUDDS</p>
+                <h2 class="product-name" onclick="window.location.href='studs49.html'">TROOPER D4 RACE N1 (Matt Black/Red & Blue)</h2>
+                <div class="product-info">
+                    <div class="price-data" onclick="window.location.href='studs49.html'">
+                        <p class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </p>
+                        <h2 class="product-price">₹2190</h2>
+                    </div>
+                    <div class="add-to-cart" onclick="addToCart(this.parentElement.parentElement)">
+                        <i class="ri-heart-line"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://shop.studds.com/wp-content/uploads/2025/04/TROOPER-D4-BLACK-GREY-BLUE-3.webp" alt="" class="product-image" onclick="window.location.href='studs50.html'">
+                <p class="brand-name">STUDDS</p>
+                <h2 class="product-name" onclick="window.location.href='studs50.html'">TROOPER D4 RACE N1 (Black/Grey & Blue)</h2>
+                <div class="product-info">
+                    <div class="price-data" onclick="window.location.href='studs50.html'">
+                        <p class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </p>
+                        <h2 class="product-price">₹2190</h2>
+                    </div>
+                    <div class="add-to-cart" onclick="addToCart(this.parentElement.parentElement)">
+                        <i class="ri-heart-line"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://shop.studds.com/wp-content/uploads/2025/04/TROOPER-D4-BLACK-RED-3.webp" alt="" class="product-image" onclick="window.location.href='studs51.html'">
+                <p class="brand-name">STUDDS</p>
+                <h2 class="product-name" onclick="window.location.href='studs51.html'">TROOPER D4 RACE N2 (Black/Red)</h2>
+                <div class="product-info">
+                    <div class="price-data" onclick="window.location.href='studs51.html'">
+                        <p class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </p>
+                        <h2 class="product-price">₹2190</h2>
+                    </div>
+                    <div class="add-to-cart" onclick="addToCart(this.parentElement.parentElement)">
+                        <i class="ri-heart-line"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://shop.studds.com/wp-content/uploads/2023/02/TROOPER_GLOSS_BLACK-PINK_02.jpg" alt="" class="product-image" onclick="window.location.href='studs52.html'">
+                <p class="brand-name">STUDDS</p>
+                <h2 class="product-name" onclick="window.location.href='studs52.html'">TROOPER DV D1 (Black & Pink)</h2>
+                <div class="product-info">
+                    <div class="price-data" onclick="window.location.href='studs52.html'">
+                        <p class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </p>
+                        <h2 class="product-price">₹2190</h2>
+                    </div>
+                    <div class="add-to-cart" onclick="addToCart(this.parentElement.parentElement)">
+                        <i class="ri-heart-line"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://shop.studds.com/wp-content/uploads/2023/02/TROOPER-MATT-BLACK-AND-PINK_02.jpg" alt="" class="product-image" onclick="window.location.href='studs53.html'">
+                <p class="brand-name">STUDDS</p>
+                <h2 class="product-name" onclick="window.location.href='studs53.html'">TROOPER DV D1 N8 (Matt Black & Pink)</h2>
+                <div class="product-info">
+                    <div class="price-data" onclick="window.location.href='studs53.html'">
+                        <p class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </p>
+                        <h2 class="product-price">₹2190</h2>
+                    </div>
+                    <div class="add-to-cart" onclick="addToCart(this.parentElement.parentElement)">
+                        <i class="ri-heart-line"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="https://shop.studds.com/wp-content/uploads/2023/02/TROOPER_MATT_YALLOW-GREEN_04.jpg" alt="" class="product-image" onclick="window.location.href='studs54.html'">
+                <p class="brand-name">STUDDS</p>
+                <h2 class="product-name" onclick="window.location.href='studs54.html'">TROOPER DV D1 N1 (Matt Yellow & Green)</h2>
+                <div class="product-info">
+                    <div class="price-data" onclick="window.location.href='studs54.html'">
+                        <p class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </p>
+                        <h2 class="product-price">₹2190</h2>
+                    </div>
+                    <div class="add-to-cart" onclick="addToCart(this.parentElement.parentElement)">
+                        <i class="ri-heart-line"></i>
+                    </div>
+                </div>
+            </div>
+
+            <!-- <div class="product-card">
+                <img src="" alt="" class="product-image" onclick="window.location.href='studs.html'">
+                <p class="brand-name">STUDDS</p>
+                <h2 class="product-name" onclick="window.location.href='studs.html'"> ()</h2>
+                <div class="product-info">
+                    <div class="price-data" onclick="window.location.href='studs.html'">
+                        <p class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </p>
+                        <h2 class="product-price">₹</h2>
+                    </div>
+                    <div class="add-to-cart" onclick="addToCart(this.parentElement.parentElement)">
+                        <i class="ri-heart-line"></i>
+                    </div>
+                </div>
+            </div> -->
+
+
+        </div>
+
+
+        <div class="cart-model" id="cart-model">
+            <div class="cart-head">
+                <h2>Your Wishlist</h2>
+                <button class="close-btn">X</button>
+            </div>
+    
+            <ul id="cart-items">
+    
+            </ul>
+    
+            <div class="cart-total">Total: ₹<span id="total-price">0</span></div>
+            <div class="checkout-btn" onclick="window.location.href='sunglasses.html'">Explore More&ensp;➡</div>
+        </div>
+
+        <footer>
+            <div class="footer_container">
+                <div class="sec">
+                    <h3>About Us</h3>
+                    <p>The Bike Boutique established in 2018, we sell Premium Quality Helmets & Bike Accessories. With over 10+ brands to choose from. Also highly budget friendly. Visit Store Today.</p>
+
+                    <ul class="sci">
+                        <li><a href="https://www.instagram.com/the_bike_boutique_/"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
+                        <!-- <li><a href=""><i class="fab fa-facebook" aria-hidden="true"></i></a></li>
+                        <li><a href=""><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
+                        <li><a href=""><i class="fab fa-youtube" aria-hidden="true"></i></a></li> -->
+                    </ul>
+                </div>
+
+                <div class="sec quicklinks">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="contact.html">Store Locator</a></li>
+                        <li><a href="https://g.co/kgs/v2WWNei">Visit Store</a></li>
+                        <li><a href="Wa.me/8420883801/">Help? Chat With Us!</a></li>
+                        <li><a href="https://merchant.razorpay.com/policy/QiBUPGzHZaLxZY/termshttps://merchant.razorpay.com/policy/QiBUPGzHZaLxZY/terms">Policies</a></li>
+                        <li><a href="privacy.html">Privacy Policy</a></li>
+                        <li><a href="terms.html">Terms & Conditions</a></li>
+                    </ul>
+                </div>
+
+                <div class="sec contact">
+                    <h3>Contact</h3>
+                    <ul class="info">
+                        <li>
+                            <span><i class="fa fa-map" aria-hidden="true"></i> &ensp; 22/A, 23, 1st Rd, Ajoy Nagar, Mukundapur, </br>Kolkata-700075 (WB), India</span> 
+                        </li>
+
+                        <li>
+                            <p> <span><i class="fa fa-phone" aria-hidden="true"></i></span> <a href="tel:8420883801">Call Us!</a></p>
+                        </li>
+
+                        <li>
+                            <p> <span><i class="fa fa-envelope" aria-hidden="true"></i></span> <a href="mailto:thebikeboutique2023@gmail.com">Email Us!</a></p>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+
+
+            <div class="copyright">
+                <p>Copyright 2025 The Bike Boutique. All Rights Reserved.</p>
+            </div>
+        </footer>
+        
+        <script src="scripts.js"></script>
+        <script src="script.js"></script>
+    </body>
+
+</html>
